@@ -1,4 +1,4 @@
-// Path à exporter pour l’utilisation de modems
+// Path à exporter pour l’utilisation de nodejs
 NODE_PATH="/usr/local/lib/node_modules"
 export NODE_PATH
 
