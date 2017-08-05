@@ -1,0 +1,14 @@
+Type Smell,Number created,Number killed,Number killed (%),Number survived,Number survived (%),Number created at the birth of file,Number created at the birth of file (%),Average days of survival,Median days of survival
+max-statements,4,3,75.0,1,25.0,0,0.0,201,185.0
+max-depth,0,0,0,0,0,0,0,0,0
+complexity,3,3,100.0,0,0.0,0,0.0,121,134
+max-len,5,5,100.0,0,0.0,0,0.0,223,345
+max-params,0,0,0,0,0,0,0,0,0
+max-nested-callbacks,83,28,33.734939759036145,55,66.26506024096386,23,27.710843373493976,406,453
+complex-switch-case,1,1,100.0,0,0.0,0,0.0,32,32
+this-assign,161,108,67.08074534161491,53,32.91925465838509,88,54.6583850931677,427,335
+complex-chaining,14,12,85.71428571428571,2,14.285714285714285,9,64.28571428571429,122,19.5
+no-reassign,1133,709,62.57722859664607,424,37.42277140335393,471,41.57105030891439,370,335
+no-extra-bind,0,0,0,0,0,0,0,0,0
+cond-assign,0,0,0,0,0,0,0,0,0
+Total,1404,869,61.89458689458689,535,38.105413105413106,591,42.0940170940171
