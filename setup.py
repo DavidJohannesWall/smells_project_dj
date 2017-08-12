@@ -41,6 +41,10 @@ for project in projects:
     subprocess.run(['rm','-f','emplacements_bugs.txt'])
     os.system('python3 tracing_bugs_simple.py > emplacements_bugs.txt')
 
+    # On trace les emplacements des bugs potentiels mais au sens large, en considérant les dépendances
+    subprocess.run(['rm','-f','emplacements_bugs_large.txt'])
+    os.system('python3 tracing_bugs_large.py > emplacements_bugs_large.txt')
+
     # On identifie les fichiers smelly
     subprocess.run(['python3','set_smelly.py'])
 

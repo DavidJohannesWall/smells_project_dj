@@ -3,6 +3,7 @@ from pprint import pprint
 import re
 from collections import Counter
 import heapq
+import math
 
 # Ouverture du fichier data.json
 with open("data.json") as json_data:
@@ -30,16 +31,18 @@ for type_smell in smells:
             if(type_smell in smell.keys()):
                 # On ajoute le max des poids, si on a plusieurs fois le même type de code smell (le smell le plus important caractérise le fichier)
                 smells_values[type_smell].append(max([e[0] for e in smell[type_smell]]))
-            else:
-                # Sinon, on ajoute 0 (ce qui signifie que le type de smell n'est pas présent dans le fichier)
-                smells_values[type_smell].append(0)
 
 # Pour chacun des types de smell, on va définir un seuil à partir des valeurs récupérées précédemment. Au delà de ce seuil, le smell sera considéré comme véritable. En dessous, il ne sera psa pris en compte.
 # Le seuil choisi ici est 10% (donc les 10% smell les plus "gros" sont considérés comme véritables)
 for smell in smells_values.keys():
-    smells_seuil[smell] = min(heapq.nlargest(round(0.1*len(smells_values[smell]))+1,smells_values[smell]))
+    #if(math.floor(0.25*len(smells_values[smell])) == 0):
+    if(math.floor(0.1*len(smells_values[smell])) == 0):
+        smells_seuil[smell] = max(smells_values[smell]) if len(smells_values[smell]) > 0 else 0
+    else:
+        #smells_seuil[smell] = round((min(heapq.nlargest(round(0.25*len(smells_values[smell])),smells_values[smell]))+10*max(smells_values[smell]))/11)
+        smells_seuil[smell] = min(heapq.nlargest(math.floor(0.1*len(smells_values[smell])),smells_values[smell]))
 for smell in smells_boolean:
-    smells_seuil[smell] = 0
+    smells_seuil[smell] = 1
 
 # Pour chaque type de smell
 for type_smell in smells:
@@ -50,7 +53,7 @@ for type_smell in smells:
             # Si le type de smell est dans le fichier modifié
             if(type_smell in data[i]['changes'][j]['smells'].keys()): 
                 # Si un des smell a un poids supérieur au seuil établi précédemment
-                if(max([e[0] for e in data[i]['changes'][j]['smells'][type_smell]])>smells_seuil[type_smell]):
+                if(max([e[0] for e in data[i]['changes'][j]['smells'][type_smell]])>=smells_seuil[type_smell]):
                     # On ne garde que les smells dont le poids est égal au max des poids des smells (les smells les plus caractéristiques)
                     data[i]['changes'][j]['smells'][type_smell] = [e for e in data[i]['changes'][j]['smells'][type_smell] if e[0] == max([e[0] for e in data[i]['changes'][j]['smells'][type_smell]])]
                 else:
