@@ -12,7 +12,7 @@ for project in projects:
     os.chdir(project.split('/')[0])
 
     # On trace les vulnérabilités du projet traité
-    subprocess.run(['python3','tracing_vulnerabilities.py','>','vulnerabilities.txt'])
+    os.system('python3 tracing_vulnerabilities.py > vulnerabilities.txt')
 
     # On revient dans le répertoire parent
     os.chdir('..')
