@@ -1,0 +1,207 @@
+Results of vulnerabilities-smells with file grain
+		Covariate : linesAdded
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : linesRemoved
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : totalChurn
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : loc
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxstatements
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxdepth
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexity
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxlen
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxparams
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxnestedcallbacks
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexswitchcase
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : thisassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexchaining
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noreassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noextrabind
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : condassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : smelly
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+Results of vulnerabilities-smells with line grain
+		Covariate : linesAdded
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : linesRemoved
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : totalChurn
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : loc
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxstatements
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxdepth
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexity
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxlen
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxparams
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxnestedcallbacks
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexswitchcase
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : thisassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexchaining
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noreassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noextrabind
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : condassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : smelly
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+Results of vulnerabilities-smells with line grain and considering dependencies
+		Covariate : linesAdded
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : linesRemoved
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : totalChurn
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : loc
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxstatements
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxdepth
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexity
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxlen
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxparams
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : maxnestedcallbacks
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexswitchcase
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : thisassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : complexchaining
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noreassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : noextrabind
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : condassign
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
+		Covariate : smelly
+			exp(coef) : 1
+			p-value (Cox hazard model) : NaN
+			p-value (Porportional hazards assumption) : NaN
