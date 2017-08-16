@@ -196,10 +196,10 @@ for f in smell_by_file.keys():
                 line["smelly"] = 1
             
             # On stocke le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
             final_data.append([line["time"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"]])
@@ -239,7 +239,7 @@ for file in smell_by_file.keys():
 
 # On stocke une liste de liste qui va nous permettre de faire les analyses de survie, et d'étudier les risques de fautes dans les fichiers smelly et non-smelly
 final_data = []
-final_data.append(["time",'linesAdded','linesRemoved','totalChurn','loc','maxstatements','maxdepth','complexity','maxlen','maxparams','maxnestedcallbacks','complexswitchcase','thisassign','complexchaining','noreassign','noextrabind','condassign',"event","smelly","eventmaxstatements","eventmaxdepth",'eventcomplexity','eventmaxlen','eventmaxparams','eventmaxnestedcallbacks','eventcomplexswitchcase','eventthisassign','eventcomplexchaining','eventnoreassign','eventnoextrabind','eventcondassign'])
+final_data.append(["time",'linesAdded','linesRemoved','totalChurn','loc','maxstatements','maxdepth','complexity','maxlen','maxparams','maxnestedcallbacks','complexswitchcase','thisassign','complexchaining','noreassign','noextrabind','condassign',"event","smelly"])
 
 # Pour chaque fichier dans smell_by_file
 for f in smell_by_file.keys():
@@ -276,11 +276,15 @@ for f in smell_by_file.keys():
                 print(f)
                 print()
 
+            # already va permettre de voir si les variables de smells ont été traitées dans cette boucle pour le fichier et le commit traités
+            already = {}
+            already["smelly"] = False
+            for ts in type_smell:
+                already[ts] = False
+
             # On met "event" à 0.
             # "event" vaut 1 si le commit actuel est vulnérable, et 0 sinon.
             line["event"] = 0
-            for ts in type_smell:
-                line["event"+ts] = 0
 
             # Si le commit actuel est vulnérable
             if smell_by_file[f][commits[i]][1] == 1:
@@ -293,14 +297,14 @@ for f in smell_by_file.keys():
                         if(v[0] <= s and v[1] >= s):
                             correlation = True
                 if correlation == False:
-                    # On met "event" à 0 car il n'y a pas de lien entre les smells et les vulnérabilités
-                    line["event"] = 0
+                    # On met "smelly" à 0 car il n'y a pas de lien entre les smells et les vulnérabilités
+                    line["smelly"] = 0
+                    already["smelly"] = True
 
                 # Pour chaque type de smell
                 for ts in type_smell:
                     # Si le type de smell apparaît dans le fichier vulnérable
                     if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
-                        line['event'+ts] = 1
                         correlation = False
                         emplacements_smells = [smell_by_file[f][commits[i]][0]["smells"][ts][l][1] for l in range(len(smell_by_file[f][commits[i]][0]["smells"][ts]))]
                         emplacements_vuln = smell_by_file[f][commits[i]][2]
@@ -309,33 +313,36 @@ for f in smell_by_file.keys():
                                 if(v[0] <= s and v[1] >= s):
                                     correlation = True
                         if correlation == False:
-                            line['event'+ts] = 0
-
+                            line[ts] = 0
+                            already[ts] = True
+            
             # Pour chaque type de smell
             for ts in type_smell:
-                # Si ce type de smell apparaît dans le commit et fichier traités
-                if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
-                    # On met à 1 line[ts]
-                    line[ts] = 1
-                # Sinon, line[ts] vaut 0
-                else:
-                    line[ts] = 0
+                if already[ts] == False:
+                    # Si ce type de smell apparaît dans le commit et fichier traités
+                    if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
+                        # On met à 1 line[ts]
+                        line[ts] = 1
+                    # Sinon, line[ts] vaut 0
+                    else:
+                        line[ts] = 0
 
-            # Si le fichier est marqué comme smelly = 0, on met "smelly" à 0
-            if(smell_by_file[f][commits[i]][0]["smelly"]==0):
-                line["smelly"] = 0
-            # Sinon, on met "smelly" à 1
-            else:
-                line["smelly"] = 1
+            if already['smelly'] == False:
+                # Si le fichier est marqué comme smelly = 0, on met "smelly" à 0
+                if(smell_by_file[f][commits[i]][0]["smelly"]==0):
+                    line["smelly"] = 0
+                # Sinon, on met "smelly" à 1
+                else:
+                    line["smelly"] = 1
             
             # On stocke le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
-            final_data.append([line["time"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"],line['eventmax-statements'],line['eventmax-depth'],line['eventcomplexity'],line['eventmax-len'],line['eventmax-params'],line['eventmax-nested-callbacks'],line['eventcomplex-switch-case'],line['eventthis-assign'],line['eventcomplex-chaining'],line['eventno-reassign'],line['eventno-extra-bind'],line['eventcond-assign']])
+            final_data.append([line["time"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"]])
 
 # On enregistre nos informations dans un csv, sachant qu'on a traité ici les liens entre smells et vulnérabilités à la granularité du fichier
 with open('Jquery_vulnerabilities_smells_line-grain.csv',"w",newline='') as csv_file:
@@ -409,11 +416,15 @@ for f in smell_by_file.keys():
                 print(f)
                 print()
 
+            # already va permettre de voir si les variables de smells ont été traitées dans cette boucle pour le fichier et le commit traités
+            already = {}
+            already["smelly"] = False
+            for ts in type_smell:
+                already[ts] = False
+
             # On met "event" à 0.
             # "event" vaut 1 si le commit actuel est vulnérable, et 0 sinon.
             line["event"] = 0
-            for ts in type_smell:
-                line["event"+ts] = 0
 
             # Si le commit actuel est vulnérable
             if smell_by_file[f][commits[i]][1] == 1:
@@ -426,14 +437,14 @@ for f in smell_by_file.keys():
                         if(v[0] <= s and v[1] >= s):
                             correlation = True
                 if correlation == False:
-                    # On met "event" à 0 car il n'y a pas de lien entre les smells et les vulnérabilités
-                    line["event"] = 0
+                    # On met "smelly" à 0 car il n'y a pas de lien entre les smells et les vulnérabilités
+                    line["smelly"] = 0
+                    already["smelly"] = True
 
                 # Pour chaque type de smell
                 for ts in type_smell:
                     # Si le type de smell apparaît dans le fichier vulnérable
                     if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
-                        line['event'+ts] = 1
                         correlation = False
                         emplacements_smells = [smell_by_file[f][commits[i]][0]["smells"][ts][l][1] for l in range(len(smell_by_file[f][commits[i]][0]["smells"][ts]))]
                         emplacements_vuln = smell_by_file[f][commits[i]][3]
@@ -442,33 +453,36 @@ for f in smell_by_file.keys():
                                 if(v[0] <= s and v[1] >= s):
                                     correlation = True
                         if correlation == False:
-                            line['event'+ts] = 0
-
+                            line[ts] = 0
+                            already[ts] = True
+            
             # Pour chaque type de smell
             for ts in type_smell:
-                # Si ce type de smell apparaît dans le commit et fichier traités
-                if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
-                    # On met à 1 line[ts]
-                    line[ts] = 1
-                # Sinon, line[ts] vaut 0
-                else:
-                    line[ts] = 0
+                if already[ts] == False:
+                    # Si ce type de smell apparaît dans le commit et fichier traités
+                    if(ts in smell_by_file[f][commits[i]][0]["smells"].keys()):
+                        # On met à 1 line[ts]
+                        line[ts] = 1
+                    # Sinon, line[ts] vaut 0
+                    else:
+                        line[ts] = 0
 
-            # Si le fichier est marqué comme smelly = 0, on met "smelly" à 0
-            if(smell_by_file[f][commits[i]][0]["smelly"]==0):
-                line["smelly"] = 0
-            # Sinon, on met "smelly" à 1
-            else:
-                line["smelly"] = 1
+            if already['smelly'] == False:
+                # Si le fichier est marqué comme smelly = 0, on met "smelly" à 0
+                if(smell_by_file[f][commits[i]][0]["smelly"]==0):
+                    line["smelly"] = 0
+                # Sinon, on met "smelly" à 1
+                else:
+                    line["smelly"] = 1
             
             # On stocke le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
-            final_data.append([line["time"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"],line['eventmax-statements'],line['eventmax-depth'],line['eventcomplexity'],line['eventmax-len'],line['eventmax-params'],line['eventmax-nested-callbacks'],line['eventcomplex-switch-case'],line['eventthis-assign'],line['eventcomplex-chaining'],line['eventno-reassign'],line['eventno-extra-bind'],line['eventcond-assign']])
+            final_data.append([line["time"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"]])
 
 # On enregistre nos informations dans un csv, sachant qu'on a traité ici les liens entre smells et vulnérabilités à la granularité du fichier
 with open('Jquery_vulnerabilities_smells_line-grain_large.csv',"w",newline='') as csv_file:

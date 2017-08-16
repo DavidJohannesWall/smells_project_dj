@@ -61,6 +61,7 @@ for file in historique.keys():
                         print('Erreur avec le fichier : ',file)
                         print("Commit de l'historique : ",commit)
                         print()
+                        historique[file].remove(commit)
 
 # On stocke dans un dictionnaire les différents noms que peut avoir chaque fichier
 dict_files_names = {}

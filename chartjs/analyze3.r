@@ -47,10 +47,10 @@ for (var in variables) {
 	else {
 		ev <- "event"
 	}
-	coxsurvival <- coxph(Surv(time, get(ev)) ~ get(var))
+	coxsurvival <- coxph(Surv(time, event) ~ get(var))
 	write(sprintf("			exp(coef) : %g",coef(summary(coxsurvival))[2]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
 	write(sprintf("			p-value (Cox hazard model) : %g",coef(summary(coxsurvival))[5]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
-	coxsurvival <- coxph(Surv(time, get(ev)) ~ get(var))
+	coxsurvival <- coxph(Surv(time, event) ~ get(var))
 	testdata <- cox.zph(coxsurvival)
 	write(sprintf("			p-value (Porportional hazards assumption) : %g",testdata[[1]][3]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
 }
@@ -76,10 +76,10 @@ for (var in variables) {
 	else {
 		ev <- "event"
 	}
-	coxsurvival <- coxph(Surv(time, get(ev)) ~ get(var))
+	coxsurvival <- coxph(Surv(time, event) ~ get(var))
 	write(sprintf("			exp(coef) : %g",coef(summary(coxsurvival))[2]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
 	write(sprintf("			p-value (Cox hazard model) : %g",coef(summary(coxsurvival))[5]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
-	coxsurvival <- coxph(Surv(time, get(ev)) ~ get(var))
+	coxsurvival <- coxph(Surv(time, event) ~ get(var))
 	testdata <- cox.zph(coxsurvival)
 	write(sprintf("			p-value (Porportional hazards assumption) : %g",testdata[[1]][3]),"Chart_vulnerabilities-smells_summary.txt",append=TRUE)
 }
