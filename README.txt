@@ -10,3 +10,6 @@ python3 survival_smells.py
 
 // Analyses de survie entre les smells et les bugs
 python3 smells_bugs_analyses.py
+
+// Analyses de survie entre les smells et les vulnérabilités
+python3 tracing_vulnerabilities_main.py
