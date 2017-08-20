@@ -240,10 +240,10 @@ for f in smell_by_file.keys():
             
             # On stocke prevbugs, le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
             line["prevbugs"] = prevbugs
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
             final_data.append([line["time"],line["prevbugs"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"]])
@@ -416,10 +416,10 @@ for f in smell_by_file.keys():
             
             # On stocke prevbugs, le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
             line["prevbugs"] = prevbugs
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
             final_data.append([line["time"],line["prevbugs"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"],line['eventmax-statements'],line['eventmax-depth'],line['eventcomplexity'],line['eventmax-len'],line['eventmax-params'],line['eventmax-nested-callbacks'],line['eventcomplex-switch-case'],line['eventthis-assign'],line['eventcomplex-chaining'],line['eventno-reassign'],line['eventno-extra-bind'],line['eventcond-assign']])
@@ -537,7 +537,7 @@ for f in smell_by_file.keys():
                                     else:
                                         correlation = False
                                         emplacements_smells = [smell_by_file[f][commits[j]][0]["smells"][ts][l][1] for ts in type_smell if(ts in smell_by_file[f][commits[j]][0]["smells"].keys()) for l in range(len(smell_by_file[f][commits[j]][0]["smells"][ts]))]
-                                        emplacements_bugs = smell_by_file[f][commits[j]][3]
+                                        emplacements_bugs = smell_by_file[f][commits[j]][4]
                                         for s in emplacements_smells:
                                             for b in emplacements_bugs:
                                                 if(b[0] <= s and b[1] >= s):
@@ -557,7 +557,7 @@ for f in smell_by_file.keys():
                                         else:
                                             correlation = False
                                             emplacements_smells = [smell_by_file[f][commits[j]][0]["smells"][ts][l][1] for l in range(len(smell_by_file[f][commits[j]][0]["smells"][ts]))]
-                                            emplacements_bugs = smell_by_file[f][commits[j]][3]
+                                            emplacements_bugs = smell_by_file[f][commits[j]][4]
                                             for s in emplacements_smells:
                                                 for b in emplacements_bugs:
                                                     if(b[0] <= s and b[1] >= s):
@@ -592,10 +592,10 @@ for f in smell_by_file.keys():
             
             # On stocke prevbugs, le nombre de lignes ajoutées, le nombre de lignes supprimées, le totalChurn, et le loc
             line["prevbugs"] = prevbugs
-            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0]
-            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1]
-            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1]
-            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2]
+            line["linesAdded"] = smell_by_file[f][commits[i]][0]["churn"][0] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["linesRemoved"] = smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["totalChurn"] = smell_by_file[f][commits[i]][0]["churn"][0] + smell_by_file[f][commits[i]][0]["churn"][1] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
+            line["loc"] = smell_by_file[f][commits[i]][0]["churn"][2] if "churn" in smell_by_file[f][commits[i]][0].keys() else 0
 
             # On stocke les informations concernant le fichier et commit traités dans final_data
             final_data.append([line["time"],line["prevbugs"],line["linesAdded"],line["linesRemoved"],line["totalChurn"],line["loc"],line['max-statements'],line['max-depth'],line['complexity'],line['max-len'],line['max-params'],line['max-nested-callbacks'],line['complex-switch-case'],line['this-assign'],line['complex-chaining'],line['no-reassign'],line['no-extra-bind'],line['cond-assign'],line["event"],line["smelly"],line['eventmax-statements'],line['eventmax-depth'],line['eventcomplexity'],line['eventmax-len'],line['eventmax-params'],line['eventmax-nested-callbacks'],line['eventcomplex-switch-case'],line['eventthis-assign'],line['eventcomplex-chaining'],line['eventno-reassign'],line['eventno-extra-bind'],line['eventcond-assign']])

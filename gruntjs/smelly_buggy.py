@@ -538,7 +538,7 @@ for f in smell_by_file.keys():
                                     else:
                                         correlation = False
                                         emplacements_smells = [smell_by_file[f][commits[j]][0]["smells"][ts][l][1] for ts in type_smell if(ts in smell_by_file[f][commits[j]][0]["smells"].keys()) for l in range(len(smell_by_file[f][commits[j]][0]["smells"][ts]))]
-                                        emplacements_bugs = smell_by_file[f][commits[j]][3]
+                                        emplacements_bugs = smell_by_file[f][commits[j]][4]
                                         for s in emplacements_smells:
                                             for b in emplacements_bugs:
                                                 if(b[0] <= s and b[1] >= s):
@@ -558,7 +558,7 @@ for f in smell_by_file.keys():
                                         else:
                                             correlation = False
                                             emplacements_smells = [smell_by_file[f][commits[j]][0]["smells"][ts][l][1] for l in range(len(smell_by_file[f][commits[j]][0]["smells"][ts]))]
-                                            emplacements_bugs = smell_by_file[f][commits[j]][3]
+                                            emplacements_bugs = smell_by_file[f][commits[j]][4]
                                             for s in emplacements_smells:
                                                 for b in emplacements_bugs:
                                                     if(b[0] <= s and b[1] >= s):
