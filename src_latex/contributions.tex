@@ -1,0 +1,11 @@
+\section{Contributions (part to remove)}\label{sec:contributions}
+{\color{blue}In this section, we discuss the contributions that I provided, in order to make myself clear about what I have done during these four last months. All the modifications are colored in blue in this paper, and all the Tables and Figures have been updated.
+	
+My first task was to understang Amir Saboury's code that he did to produce this paper (first version). The difficulty was essentially the lack of code documentations, which makes my objective harder to achieve. More specifically, some parts of the code were missing, like the smells information report, and I had to write the missing parts of this code. Some Javascript library (ESLint) needed to be modified in order to print correctly the information about smells localization and weight, to easily parse the smells report and do the next tasks.
+Then, I reused Amir Saboury's code to get all the information I needed about smell information (after modifying myself the code like I said), and did my second task, which was to make the smells genealogy. All my methology has already been presented in the previous sections (sections \ref{extraction} and \ref{sec:case-study}).
+Then, I rewrited Amir Saboury's code about combining smells detection and fixes detection (in Python), for consistency and understanding reasons, and I then reused this Python code to make the combination between smells detection and vulnerabilities detection.
+I reused also the R file created by Amir Saboury to make all the Cox survival and hazard models.
+Finally, one of my aims was to extend the original paper by introducing new systems. Thus, I introduced ten new systems, and their selection was obviously based on their popularity inside the JavaScript community.
+
+All the code that I writed is present on my Github repository\footnote{https://github.com/DavidJohannesWall/smells\_project}, as well as all the results. In this paper, I condensed the results that I got not to overload the paper, but all the detailed results appear on my Github repository (\textsl{Results} repository). All the code is commented (unfortunately in French) for comprehension reasons and for a better reuse.
+}

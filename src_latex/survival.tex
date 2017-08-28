@@ -1,0 +1,43 @@
+\subsection{Analysis}\label{survival}
+To assess the impact of code smells on the fault-proneness {\color{blue}or vulnerability of JavaScript files, or to assess the smells survival over project lifetime,} we perform survival analysis, comparing the time until {\color{blue}either a fault occurrence, or a vulnerability occurrence}, in files containing code smells and files without code smells, {\color{blue}or comparing the time until a type smell occurrence in files containing code smells, for each of the 12 type smell.}\\
+\textbf{Survival analysis} is used to model the time until the occurrence of a well-defined event~\cite{fox2010r}. One of the most popular models for survival analysis is the Cox Proportional Hazards (Cox) model. A Cox hazard model is able to model the instantaneous hazard of the occurrence of an event as a function of a number of independent variables~\cite{koru2008theory}~\cite{singer2003applied}. Particularly, Cox models aim to model how long subjects under observation can \textsl{survive} before the occurrence of an event of interest (a fault occurrence in our case) ~\cite{singer2003applied}~\cite{selim2010studying}.
+
+Survival models were first introduced in demography and actuarial sciences~\cite{Westergaard}. Recently, researchers have started applying them to problems in the domain of Software Engineering. For example, Selim et al.~\cite{selim2010studying} used the Cox model to investigate characteristics of cloned code that are related to the occurrence of faults. Koru et al.~\cite{koru2007modeling} also used Cox models to analyze faults in software systems. %formulated the modeling by using Cox in order to find the effect of size on the defects.
+In Cox models, the hazard of a fault occurrence at a time t is modeled by the following function:
+
+\begin{equation}\label{eq1}
+\lambda_{i}(t) = \lambda_{0}(t)* e ^ {\beta*{F_{i}}(t)}
+\end{equation}
+
+If we take log from both sides, we obtain:
+
+\begin{equation}\label{eq2}
+log(\lambda_{i}(t)) = log(\lambda_{0}(t)) + {\beta_{1}*{f_{i1}}(t)} + ... + {\beta_{n}*{f_{in}}(t)}
+\end{equation}
+
+Where:
+\begin{itemize}
+	\item ${F_{i}}(t)$ is the time-dependent covariates of observation $i$ at the time $t$.
+	\item $\beta$ is the coefficient of covariates in the function ${F_{i}}(t)$.	
+	\item $\lambda_0$ is the baseline hazard.
+	\item $n$ is the number of covariates.
+\end{itemize}
+
+When all the covariates have no effect on the hazard, the baseline hazard can be considered as the hazard of occurrence of the event (\ie{} a fault). The baseline hazard would be omitted when formulating the relative hazard between two files (in our case) at a specific time, as shown in the following Equation~\ref{eq3}.
+
+\begin{equation}\label{eq3}
+\lambda_{i}(t) \slash \lambda_{j}(t) = e ^ {\beta*{(f_{i}(t) - f_{j}(t))}}
+\end{equation}
+
+The proportional hazard model assumes that changing each covariate has the effect of multiplying the hazard rate by a constant.
+
+%It is obvious that the relative hazard has nothing to do with the baseline hazard. This is called the proportional hazard assumption.
+
+\textbf{Link function}. As Equation~\ref{eq2} shows, the log of the hazard is a linear function of the log of the baseline hazard and all the other covariates. In order to build a Cox proportional model, a linear relationship should be available between the log hazard and the covariates~\cite{therneau2000modeling}. Link functions are used to transform the covariates to a new scale if such relationship does not exist. Determining an appropriate link function for covariates is necessary because it allows changes in the original value of a covariate to influence the log hazard equally. This allows the proportionality assumption to be valid and applicable~\cite{therneau2000modeling}.
+
+\textbf{Stratification}. In addition to applying a link function, a stratification is sometimes necessary to preserve the proportionality in Cox hazard models \cite{koru2008theory}. For example, if there is a covariate that needs to be controlled because it is of no interest or secondary, stratification can be used to split the data set so that the influence of more important covariates can be monitored better \cite{koru2008theory}.
+
+\textbf{Model validation}. Since Cox proportional hazard models assume that all covariates are consistent over time and the effect of a covariate does not fluctuate with time, hence, to validate our model, we apply a non-proportionality test to ensure that the assumption is satisfied~\cite{therneau2000modeling} \cite{selim2010studying}.
+
+In this paper, we perform our analysis at commit level. For each file, we use Cox proportional hazard models to calculate the risk of a fault occurrence over time, considering a number of independent covariates. We chose Cox proportional hazard model for the following reasons:\\
+(1) In general, not all files in a commit experience a fault. Cox hazard models allow files to remain in the model for the entire observation period, even if they don't experience the event (\ie{} fault occurrence). (2) In Cox hazard models, subjects can be grouped according to a covariate (\eg{} smelly or non-smelly). (3) The characteristics of the subjects might change during the observation period (\eg{} size of code), and (4) Cox hazard models are adapted for events that are recurrent~\cite{therneau2000modeling}, which is important because software modules evolve over time and a file can have multiple faults during its life cycle. 

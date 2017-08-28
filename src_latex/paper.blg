@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--string name "aw" is undefined
+--line 1251 of file references.bib
+Warning--string name "awadd" is undefined
+--line 1257 of file references.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in ESLint
+Warning--empty journal in ESLint
+Warning--empty year in ESLint
+Warning--empty journal in rPackage
+Warning--empty publisher in Gam95
+Warning--empty author in JslinT
+Warning--empty journal in JslinT
+Warning--empty year in JslinT
+Warning--empty author in JSHint
+Warning--empty journal in JSHint
+Warning--empty year in JSHint
+
+Done.
+You've used 60 entries,
+            4039 wiz_defined-function locations,
+            1112 strings with 16814 characters,
+and the built_in function-call counts, 37446 in all, are:
+= -- 2892
+> -- 785
+< -- 260
++ -- 429
+- -- 133
+* -- 1701
+:= -- 5643
+add.period$ -- 136
+call.type$ -- 60
+change.case$ -- 62
+chr.to.int$ -- 627
+cite$ -- 71
+duplicate$ -- 2793
+empty$ -- 3443
+format.name$ -- 166
+if$ -- 8649
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 505
+newline$ -- 229
+num.names$ -- 49
+pop$ -- 1337
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2931
+stack$ -- 0
+substring$ -- 1528
+swap$ -- 2042
+text.length$ -- 51
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 60
+warning$ -- 11
+while$ -- 162
+width$ -- 62
+write$ -- 561
+(There were 13 warnings)

@@ -1,0 +1,307 @@
+\section{Background}\label{sec:background}
+
+To study the impact of code smells on the fault-proneness {\color{blue} and the vulnerability} of server-side JavaScript applications, {\color{blue} and to study the smells's survival}, we first need to identify a list of JavaScript bad practices as our set of code smells. Hence, we select the following 12 popular code smells from different JavaScript Style Guides~\cite{fard2013jsnose, npmjss, nodejss, airbnbjss, jqueryjss, ESLint}. %We chose them because they are% online style guides, we have listed 12 common bad practices and poor design choices in JavaScript. Below is the list these code smells we extract from the JavaScript source code and the motivation behind each.
+
+\mytitle{1) Lengthy Lines} Too many characters in a single line of code would decrease readability and maintainability of the code. Lengthy lines of code also make the code review process harder. There are different limits indicated in different JavaScript style guides. NPM's coding style\cite{npmjss} and node style guide\cite{nodejss} suggest that 80 characters per line should be the limit. Airbnb's JavaScript style guide\cite{airbnbjss} which is a popular one with around 42,000 Github stars, suggests a number of characters per line of code less than 100. Wordpress's style guide\cite{wordpressjss} encourages jQuery's 100-character limit\cite{jqueryjss}. All the style guides include white spaces and indentations in the limit. As mentioned in jQuery's style guide, there are some cases that should be considered exceptions to this limit: (i) comments containing long URLs and (ii) regular expressions \cite{jqueryjss}.
+
+\mytitle{2) Chained Methods} Method chaining is a common practice in object-oriented programming languages, that consists in using an object returned from one method invocation to make another method invocation. This process can be repeated indefinitely, resulting in a ``chain'' of method calls. %Chaining methods is a common practice in object-oriented programming languages which consists in . Invoking multiple functions, each one on the object that returned by the previous function allows those methods to be chained together.
+The nature of JavaScript and its dynamic behavior have made creating chaining code structures very easy. jQuery\footnote{jquery.com} is one of the many libraries utilizing this pattern to avoid overuse of temporary variables and repetition \cite{chaffer2009learning}. Chained methods allow developers to write less code. However, overusing chained methods makes the control flow complex and hard to understand \cite{fard2013jsnose}. Below is an example of chained methods from a jQuery snippet:
+
+\begin{lstlisting}
+$('a').addClass('reg-link')
+      .find('span')
+      .addClass('inner')
+      .end()
+      .end()
+      .find('div')
+      .mouseenter(mouseEnterHandler)
+      .mouseleave(mouseLeaveHandler)
+      .end()
+      .explode();
+\end{lstlisting}
+
+
+\mytitle{3) Long Parameter List} An ideal function should have no parameters \cite{martin2009clean}. Long lists of parameters make functions hard to understand \cite{fontana2012automatic}. It is also a sign that the function is doing too much. The alternatives are to break functions into simpler and smaller functions that do more specific tasks or to create better data structures to encapsulate the data. To handle a large amount of configurations passing to functions, JavaScript developers tend to use a single argument containing all the configurations. This is a better practice since it eliminates the order of parameters when the function calls, and it is easier to add more parameters later on while maintaining the backward compatibility. Below are examples of this code smell and suggested refactorings.
+
+\begin{lstlisting}
+// considered bad
+function distance(x1, y1, x2, y2) {
+	return Math.sqrt(Math.pow(x1-x2, 2) +
+			Math.pow(y1-y2, 2));
+}
+
+// alternative
+function distance(p1, p2) {
+	return Math.sqrt(Math.pow(p1.x-p2.x, 2) +
+			Math.pow(p1.y-p2.y, 2));
+}
+\end{lstlisting}
+\begin{lstlisting}
+// considered bad
+function send(from, to, subject, body) {
+	// ...
+}
+
+// alternative
+function send(options) {
+	// using options.from, options.to
+	//		 options.subject, options.body
+}
+\end{lstlisting}
+
+
+\mytitle{4) Nested Callbacks} JavaScript I/O operations are asynchronous and non-blocking \cite{griffin2011scaling}. Developers use callback functions to execute tasks that depend on the results of other asynchronous tasks. %, JavaScript developers use callback functions.
+When multiple asynchronous tasks are invoked in sequence (\ie{} the result of a previous one
+is needed to execute the next one), nested callbacks are introduced in the code~\cite{brodu2015toward, gallaba2015don}. This structures could lead to complex pieces of code which is called ``callback hell" \cite{ogden2015callback, brodu2015toward, fard2013jsnose}. There are several alternatives to nesting callback functions like using Promises \cite{brodu2015toward} or the newest ES7 features \cite{Jake2014es7}. Below is an example of Nested Callbacks smell and an alternative implementation that uses Promises.
+
+\begin{lstlisting}
+// considered bad
+db.getUser({id: 1}, function (user) {
+	twitter.getTweets({handle: user.twitter}, function (tweets) {
+		sendEmail(tweets, function (done) {
+			console.log('Done')
+		})
+	})
+})
+
+// Alternative implementation using Promises
+db.getUser({id: 1})
+	.then(function (user) {
+		return twitter.getTweets({handle: user.twitter});
+	})
+	.then(function (tweets) {
+		return sendEmail(tweets);
+	})
+	.then(function() {
+		console.log('Done')
+	})
+
+\end{lstlisting}
+
+
+\mytitle{5) Variable Re-assign}
+JavaScript is dynamic and weakly-typed language. Hence, it allows changing the types of the variables at run-time, based on the assigned values. This allows developers to reuse variables in the same scope for different purposes. This mechanism can decrease the quality and the readability of the code. It is recommended that developers use unique names, based on the purpose of the variables \cite{fard2013jsnose}. Below is an example of Variable Re-assign code smell and a suggested refactoring.
+
+\begin{lstlisting}
+// considered bad
+function parse(url) {
+	url = url.split('/'); // bad practice
+	var page_id = url.pop();
+	var category = url.pop();
+	url = url[0]; // bad practice
+	return {
+		id: page_id,
+		category: category,
+		url: url
+	};
+}
+parse('example.com/article/12');
+
+// using unique names
+function parse(url) {
+	const url_parts = url.split('/');
+	const page_id = url_parts.pop();
+	const category = url_parts.pop();
+	const domain = url_parts[0];
+	return {
+		id: page_id,
+		category: category,
+		url: domain
+	};
+}
+parse('example.com/article/12');
+
+\end{lstlisting}
+
+
+\mytitle{6) Assignment in Conditional Statements}\footnote{http://eslint.org/docs/rules/no-cond-assign} JavaScript has three kinds of operators that use the \texttt{=} character.
+\begin{itemize}
+\item{
+	``\texttt{=}" For assignment.
+\begin{lstlisting}
+	var pi = 3.14;
+\end{lstlisting}
+}
+\item{
+	``\texttt{==}" For comparing values.
+\begin{lstlisting}
+	if (username == "admin") {}
+\end{lstlisting}
+}
+\item{
+	``\texttt{===}" For comparing both values and types.
+\begin{lstlisting}
+	if (input === 5) {}
+\end{lstlisting}
+}
+\end{itemize}
+
+The operator \texttt{==} compares only values and allows different variable types to be equal if their value is the same. On the other hand, the operator \texttt{===} compares both the types and the values of variables and evaluates to false if operands' types are different even if their values are equal.
+\begin{lstlisting}
+'5' == 5  // true
+'5' === 5 // false
+\end{lstlisting}
+
+The operator \texttt{=} not only assigns a value to a variable but also returns the value. This allows multiple assignments in a single statement:
+\begin{lstlisting}
+var a, b, c;
+a = b = c = 5;
+\end{lstlisting}
+Which translates into:
+\begin{lstlisting}
+var a, b, c;
+(a = (b = (c = 5)));
+\end{lstlisting}
+
+The \texttt{=} operator also could be used in conditions:
+\begin{lstlisting}
+function getElement(arr, i) {
+	if (i < arr.length) return arr[i];
+	return false;
+}
+var element;
+if (element = getElement(arr, 5)){
+	console.log(element);
+}
+\end{lstlisting}
+
+Sometimes developers use assignments in conditional statements to write less code. It could also happen by mistyping \texttt{=} instead of \texttt{==}. IDEs\footnote{Integrated Development Environment} often flag the usage of assignment in conditions with a warning sign. Compilers like \texttt{g++} will warn about these patterns if \texttt{-Wall} switch is passed to it. It is a common pattern for iterating over an array or any other iterable object and extracting values from them, such as iterating over the result of executing a regular expression on a string. Below is an example of Assignment in Conditions code smell and a suggested refactoring.
+\begin{lstlisting}
+var str = 'this is a string';
+var rx  = /\w+/g;
+var word;
+while(word = rx.exec(str)){
+    console.log(word[0]); // matched word
+    console.log(word.index); // matched index
+}
+
+// better approach
+var str = 'this is a string';
+var rx  = /\w+/g;
+var word;
+while(true){
+	word = rx.exec(str);
+	if (!word) break;
+    console.log(word[0]); // matched word
+    console.log(word.index); // matched index
+}
+\end{lstlisting}
+
+While assignment in conditions could be intentional, it is often the result of a mistake, \ie{} \texttt{=} is used instead of \texttt{==} \cite{seticert}.
+
+\mytitle{7) Complex code} The cyclomatic complexity of a code is the number of linearly independent paths through the code~\cite{mccabe1976complexity}. JavaScript files with the Complex code smell are characterized by high cyclomatic complexity values. % is widely used by researchers as a metric indicating the complexity of the code.
+
+
+\mytitle{8) Extra Bind}\footnote{http://eslint.org/docs/rules/no-extra-bind} The ``\texttt{this}'' keyword in JavaScript functions is contextual and is going to be initialized with the context which the function is being called within.
+\begin{lstlisting}
+var obj = {
+	a: 5,
+	f: function () {
+		return this.a;
+	}
+}
+obj.f(); // 'this' in f is 'obj'
+\end{lstlisting}
+
+This design of JavaScript leads to \texttt{this} to be bound to a global scope whenever the function is called as a callback if not bound explicitly. So the scope of variable \texttt{this} is not lexical. In other words \texttt{this} in inner functions is not going to be bound to the \texttt{this} of the outer function \cite{fard2013jsnose}. Using ``\texttt{.bind(ctx)}'' on a function will change the context of the function and should be used with caution.
+
+The example below shows the usage of \texttt{.bind(ctx)} to explicitly bind the context of the callback function to the context of its outer function.
+\begin{lstlisting}
+function downloader(id) {
+	this.path = '/' + id;
+	this.result = null;
+	function callback(data) {
+		this.result = data;
+		console.log('done', this.path);
+	}
+	download(this.path, callback.bind(this)); // note the usage of `this`
+}
+\end{lstlisting}
+
+Sometimes the \texttt{this} variable is removed from the body of the inner function in the course of maintenance or refactoring. Keeping \texttt{.bind()} in these cases is an unnecessary overhead. In ES6, there is another type of functions called \emph{arrow functions} which solved the problem mentioned above. In \emph{arrow functions} the scoping of \texttt{this} is lexical.
+
+The example below shows how \emph{arrow functions} could be used to have lexical \texttt{this} inside functions.
+\begin{lstlisting}
+function downloader(id) {
+	this.path = '/' + id;
+	this.result = null;
+	download(this.path, (data) => {
+		this.result = data;
+		console.log('done', this.path);
+	});
+}
+\end{lstlisting}
+
+
+\mytitle{9) This Assign}\footnote{https://github.com/amir-s/eslint-plugin-smells} If the context in a callback function is not bound at the definition level, it will be lost. When there are large numbers of inner functions or callbacks in which the context should be preserved, developers often use a hacky solution such as storing \texttt{this} in another variable to access to the parent scope's context. If the context of the parent scope is stored in another variable besides \texttt{this}, usually named \texttt{self} or \texttt{that} \cite{crockford2008javascript}, it would not be overridden and it is going to be bound to the same variable for all the defined functions in the same scope tree.
+
+The example below is an example of storing \texttt{this} in another variable to be used in callback functions.
+
+\begin{lstlisting}
+function User(id) {
+	var self = this;
+	self.id = id;
+	getPropertiesById(id, function(props) {
+		// self is bound to its value on parent scope
+		// since there is no self in the current scope
+		self.props = props;
+	});
+}
+\end{lstlisting}
+
+Assigning \texttt{this} to other variables could work for small classes, but it decreases the maintainability of code as the size of the project grows. Having a substitute variable for \texttt{this} could also break if the substitute variable is overridden by a callback function. It is a bad practice to use this hacky solution since there are other built-in language features to have lexical \texttt{this}.
+
+The code below shows how to use built-in language features to achieve lexical \texttt{this} in callback functions.
+\begin{lstlisting}
+function User(id) {
+	this.id = id;
+	getPropertiesById(id, function(props) {
+		this.props = props;
+	}.bind(this)); // note the .bind
+}
+
+// ES6 feature:
+function User(id) {
+	this.id = id;
+	// arrow functions use lexical `this`
+	getPropertiesById(id, props => {
+		this.props = props;
+	});
+}
+\end{lstlisting}
+
+\mytitle{10) Long Methods} Long method is a well-known code smell \cite{marinescu2006object, fard2013jsnose, fontana2012automatic}. Long methods should be broken down into several smaller methods that do more specific tasks.
+
+\mytitle{11) Complex Switch Case} Complex switch-case structures are considered a bad practice and could be a sign of violation of the Open/Close principle \cite{martin1996open}. Switch statements also induce code duplication. Often there are similar switch statements through the software code and if the developer needs to add/remove a case to one of them, it has to go through all the statements, modifying them as well~\cite{martin1999refactoring, kerievsky2005refactoring, fard2013jsnose}.
+
+\mytitle{12) Depth}\footnote{http://eslint.org/docs/rules/max-depth} The depth or the level of indentation is the number of nested blocks of code. Higher depth means more nested blocks and more complexity. The following statements are considered as an increment to the number of blocks if nested: \texttt{function}, \texttt{If}, \texttt{Switch}, \texttt{Try}, \texttt{Do While}, \texttt{While}, \texttt{With}, \texttt{For}, \texttt{For in} and \texttt{For of}.
+
+These two functions have the same functionality. But the depth of the second implementation is less than the first one.
+\begin{lstlisting}
+// max depth = 4
+function get(array, cb) {
+    var result = [];
+    for (var i=0;i<array.length;i++) {
+        download(array[i], function (data) {
+            result.push(data);
+            if (result.length == array.length) {
+                cb(result);
+            }
+        })
+    }
+}
+
+// max depth = 2
+function get(array, cb) {
+    var result = [];
+    function inner_cb(data) {
+        result.push(data);
+        if (result.length != array.length) return;
+        cb(result);
+    }
+    for (var i=0;i<array.length;i++) {
+        download(array[i], inner_cb)
+    }
+}
+\end{lstlisting}
+

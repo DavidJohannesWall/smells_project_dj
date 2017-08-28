@@ -1,0 +1,66 @@
+\section{Study Design}\label{setup}
+
+\begin{table*}[!htbp]
+\centering
+\scriptsize
+\caption{Descriptive statistics of the studied systems.}
+\label{studiedsystems}
+\begin{tabular}{l|l|l|l|l|l|l|l|l}
+\hline
+\textbf{Module}   & \textbf{Domain}              		& \textbf{\# Commits} & \textbf{\# Contributors} & \textbf{\# Github stars} & \textbf{\# Releases} & \textbf{\# Closed issues} & \textbf{\# Forks} & \textbf{Project start date}     \\ \hline
+Express  & Web framework       		& 5300+      & 209             & 32500+          & 268         & 2400+            & 5900+    & Jun 26, 2009       	   \\ \hline
+Request  & HTTP client utility 		& 2100+      & 272             & 16000+          & 130         & 1200+            & 1900+	 & Jan 23, 2011           \\ \hline
+Less.js  & CSS pre-processor   		& 2600+      & 209             & 14500+          & 49          & 2100+			  & 3300+	 & Feb 20, 2010           \\ \hline
+Bower.io	 & Package manager     		& 2600+      & 211             & 15000+          & 101         & 1600+ 		      & 1900+ 	 & Sep 7, 2012            \\ \hline
+Grunt    & Task Runner         		& 1400+      & 66              & 11000+          & 11          & 1000+ 			  & 1500+ 	 & Sep 21, 2011           \\ \hline
+Jquery	 & JavaScript library  		& 6200+		 & 265			   & 45500+			 & 146		   & 1300+			  & 13000+	 & Apr 3, 2009			   \\ \hline
+Vue.js   & JavaScript framework		& 2100+		 & 122			   & 60500+			 & 207		   & 4800+			  & 8500+	 & Jul 29, 2013		   \\ \hline
+Ramda 	 & JavaScript library		& 2400+		 & 160			   & 8500+			 & 45		   & 800+			  & 500+	 & Jun 21, 2013		   \\ \hline
+Leaflet	 & JavaScript library		& 6300+		 & 503			   & 18500+			 & 35 		   & 3100+			  & 3200+	 & Sep 22, 2010		   \\ \hline
+Hexo.io	 & Blog framework			& 2300+		 & 100			   & 17000+			 & 119		   & 2100+			  & 2500+	 & Sep 23, 2012		   \\ \hline
+Chart.js	 & JavaScript charting		& 2300+ 	 & 277			   & 31000+			 & 37		   & 3000+			  & 7900+	 & Mar 17, 2013		   \\ \hline
+Webpack	 & JavaScript bundler		& 4300+		 & 327			   & 30000+			 & 244 		   & 3300+			  & 3700+	 & Mar 10, 2012 		   \\ \hline
+Webtorrent.io & Streaming torrent client & 2000+	 & 89			   & 13500+			 & 257		   & 700+			  & 1200+	 & Oct 15, 2013		   \\ \hline
+Moment	 & JavaScript date manager  & 3400+		 & 413			   & 32000+			 & 62		   & 2400+			  & 4700+ 	 & Mar 1, 2011			   \\ \hline
+Riot	 & Component-based UI library & 3000+ 	 & 159			   & 12000+			 & 96 		   & 1600+			  & 900+	 & Sep 27, 2013		   \\ \hline
+\end{tabular}
+\vspace{-15pt}
+\end{table*}
+
+The \emph{goal} of our study is to investigate the relation between the occurrence of code smells in JavaScript files and files fault-proneness or vulnerability, as well as the smells survival all along the projects. The \emph{quality focus} is the source code fault-proneness {\color{blue}or vulnerability}, which, if high, can have a concrete effect on the cost of maintenance and evolution of the system. The \emph{perspective} is that of researchers, interested in the relation between code smells and the quality of JavaScript systems. The results of this study are also of interest for developers performing maintenance and evolution activities on JavaScript systems since they need to take
+into account and forecast their effort, and to testers, who need to know which files should be tested in priority. Finally, the results of this study can be of interest to managers and quality assurance teams, who could use code smell detection techniques to assess the fault-proneness {\color{blue}or vulnerability} of in-house or to-be-acquired systems, to better quantify
+the cost-of-ownership of these systems. The \emph{context} of this study consists of 12 types of code smells identified in {\color{blue}fifteen} JavaScript systems. In the following, we introduce our research questions, describe the studied systems, and present our data extraction approach. Furthermore, we describe our model construction and model analysis approaches.
+
+\textbf{(RQ1) Is the risk of fault higher in files with code smells in comparison with those without code smell?}
+Prior works show that code smells increase the fault-proneness of Java classes~\cite{Khomh2012,jaafar2013mining}. Since JavaScript code smells are different from the code smells investigated in these previous studies on Java systems, we are interested in examining the impact that JavaScript code smells can have on the fault-proneness of JavaScript applications.
+
+\textbf{(RQ2) Are JavaScript files with code smells equally fault-prone?}
+During maintenance and quality assurance activities, developers are interested in identifying parts of the code that should be tested and--or refactored in priority. Hence, we are interested in identifying code smells that have the most negative impact on JavaScript systems, \ie{} making JavaScript applications more prone to faults.
+
+{\color{blue}\textbf{(RQ3) Is the risk of vulnerability higher in files with code smells in comparison with those without code smell?}
+Similarly to RQ1, we are interested in examining the impact that JavaScript code smells can have on the vulnerability of JavaScript applications.
+	
+\textbf{(RQ4) Are JavaScript files with code smells equally vulnerable?}
+Similarly to RQ2, we are interested in identifying code smells that have the most negative impact on JavaScript systems, \ie{} making JavaScript applications more vulnerable.
+	
+\textbf{(RQ5) How do the smells survive over time?}
+We are interested here in knowing the genealogy of the smells of project, in order to have a better idea of how long those smells survive, if they are persistent, when they are created during the process life of files, and which are the most dangerous.
+}
+
+\subsection{Studied Systems}
+In order to address our research questions, we perform a case study with the following {\color{blue}fifteen} open source JavaScript projects. Table~\ref{studiedsystems} summarizes the characteristics of our subject systems.\\
+\textbf{Express}\footnote{https://github.com/expressjs/express} is a minimalist web framework for Nodejs. It is one of the most popular libraries in NPM \cite{mardan2014express} and it is used in production by IBM, Uber and many other companies\footnote{https://expressjs.com/en/resources/companies-using-express.html}. Its Github repository has over 5,300 commits and more than 200 contributors. It has been forked 5,900 times and starred more than 32,500 times. Express is also one of the most dependent upon libraries on NPM with over 8,800 dependents. There are more than 2,400 closed Github issues on their repository.\\
+\textbf{Bower.io}\footnote{https://github.com/bower/bower} is a package manager for client-side libraries.
+It is a command line tool which was originally released as part of Twitter's open source effort\footnote{https://engineering.twitter.com/opensource} in 2012 \cite{bowerabout}. Its Github repository has more than 2,600 commits from more than 210 contributors. Bower has been starred over 15,000 times on Github and has over 1,600 closed issues.\\ \textbf{LessJs}\footnote{https://github.com/less/less.js} is a CSS\footnote{Cascading Style Sheet} pre-processor. It extends CSS and adds dynamic functionalities to it. There are more than 2,600 commits by over 200 contributors on its Github repository. LessJs's repository has more than 2,100 closed issues and it is starred more than 14,500 times and forked over 3,300 times.\\ \textbf{Request}\footnote{https://github.com/request/request} is a fully-featured library to make HTTP calls. More than 8,300 other libraries are direct dependents of Request. Over 2,100 commits by more than 270 contributors have been made into its Github repository and 16,000+ users starred it. There are more than 1,200 closed issues on its Github repository.\\ \textbf{Grunt}\footnote{https://github.com/gruntjs/grunt} is one of the most popular JavaScript task runners. More than 1,600 other libraries on NPM are direct dependents of Grunt. Grunt is being used by many companies such as Adobe, Mozilla, Walmart and Microsoft~\cite{gruntusers}. The Github repository of Grunt is starred by more than 11,000 users. More than 60 contributors made over 1,400 commits into this project. They also managed to have more than 1,000 closed issues on their github repository. We selected these projects because they are among the most popular NPM libraries, in terms of the number of installs. They have a large size and possess a Github repository with issue tracker and wiki. They are also widely used in production.\\
+{\color{blue}
+\textbf{Jquery}\footnote{https://github.com/jquery/jquery} is a famous JavaScript library, created to make easier the writing of client-side scripts in the HTML of web pages. It makes also easier the way to write Ajax (asynchronous JavaScript and XML) code. More than 6,200 commits have been made into its Github repository by over 260 contributors, and 45,500+ users starred it. Plus, it is forked more than 13,000 times, and there are more than 1,300 closed issues. Jquery is likely one of the most popular and biggest project of JavaScript ones.\\
+\textbf{VueJs}\footnote{https://github.com/vuejs/vue} is a performant and progressive JavaScript framework for building user interfaces. It has the big advantage (in comparison with other JavaScript frameworks) to be incrementally adoptable. Over 120 contributors made over 2,100 commits into its Github repository, and they closed more than 4,800 issues. It is forked more than 8,500 times and starred more than 60,500 times, which makes it so popular.\\
+\textbf{Ramda}\footnote{https://github.com/ramda/ramda} is a functional library, which makes easier the creation of functional pipelines and functions (as sequences for example), and doesn't mutate user data. It is starred more than 8,500 times, and 160 contributors made over 2,400 commits into its Github repository.\\
+\textbf{Leaflet}\footnote{https://github.com/Leaflet/Leaflet} is used for mobile-friendly interactive maps, and is designed in order to be simple, efficient, easily extended (with plugins), easy to use, and usable across desktop and mobile platforms. Its Github repository is starred by more than 18,500 users and forked by over 3,200 users. More than 500 people contribute to over 6,300 commits, and managed to have more than 3,100 closed issues on their github repository.\\
+\textbf{Hexo.io}\footnote{https://github.com/hexojs/hexo} is a very fast, powerful, and simple framework designed for blog's creation. It has 100 contributors, who made more than 2,300 commits, and closed over 2,100 issues. Its Github repository is forked over 2,500 times and starred over 17,000 times.\\
+\textbf{ChartJs}\footnote{https://github.com/chartjs/Chart.js} is a flexible and very simple HTML5 charting that offers to designers and developers the chance to see their data in 8 different ways, possibly scalable, customisable and animated. Its Github repository joins over 270 contributors, who closed more than 3,000 issues in over 2,300 commits. Plus, more thant 7,900 users fork it and over 31,000 users star it.\\
+\textbf{Webpack}\footnote{https://github.com/webpack/webpack} is a module blunder designed for modern applications. It allows the browser to load only a few number of bundles as small as possible. Those bundles correspond to the packaged modules that the application needs. Webpack is easy to configure and to take in hand. Its Github repository has over 4,300 commits and more than 320 contributors, who closed more than 3,300 issues. It has been forked 3,700 times and starred more than 30,000 times.\\
+\textbf{Webtorrent.io}\footnote{https://github.com/webtorrent/webtorrent} is a streaming torrent client especially designed for the desktop and the web browser. Almost 90 contributors made over 2,000 commits and help to solve and close more than 700 issues on its Github repository. It is starred over 13,500 times.\\
+\textbf{Moment}\footnote{https://github.com/moment/moment} allows users to do whatever they want with dates and times in JavaScript (which means manipulate, parse, validate, display, etc.) in a very easy way. Its Github repository has more than 3,400 commits, over 400 contributors, and more than 2,400 closed issues. It is forked over 4,700 times and starred more than 32,000 times.\\
+\textbf{Riot}\footnote{https://github.com/riot/riot} is a simple, minimalistic, and elegant component-based UI library that offers to users the necessary building blocks for modern client-side applications, some custom tags, and an elegant syntax and API. Almost 160 people contribute to its Github repository, made more than 3,000 commits, and close over 1,600 issues. It is starred more than 12,000 times.
+}

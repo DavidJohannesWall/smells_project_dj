@@ -1,0 +1,1941 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.14)  28 AUG 2017 19:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count94
+\U@D=\dimen126
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen127
+\extrarowheight=\dimen128
+\NC@list=\toks15
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\everycr=\toks16
+\minrowclearance=\skip46
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+\epsfxsize=\dimen131
+\epsfysize=\dimen132
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count96
+\lst@gtempboxa=\box28
+\lst@token=\toks18
+\lst@length=\count97
+\lst@currlwidth=\dimen133
+\lst@column=\count98
+\lst@pos=\count99
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count100
+\lst@lineno=\count101
+\lst@maxwidth=\dimen136
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen137
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count104
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box30
+\rot@mess@toks=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen138
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen139
+\subfiglabelskip=\skip52
+\c@subfigure=\count105
+\c@lofdepth=\count106
+\c@subtable=\count107
+\c@lotdepth=\count108
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen140
+\captionmargin@=\dimen141
+\captionwidth=\dimen142
+\caption@tempdima=\dimen143
+\caption@indent=\dimen144
+\caption@parindent=\dimen145
+\caption@hangindent=\dimen146
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi .
+\c@ContinuedFloat=\count109
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+\c@KVtest=\count110
+\sf@farskip=\skip55
+\sf@captopadj=\dimen147
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
+\sf@top=\skip58
+\sf@bottom=\skip59
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks20
+\float@box=\box31
+\@float@everytoks=\toks21
+\@floatcapt=\box32
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen148
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box33
+\shadowsize=\dimen149
+\@Sbox=\box34
+\do@VerbBox=\toks22
+\the@fancyput=\toks23
+\this@fancyput=\toks24
+\EndVerbatimTokens=\toks25
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box35
+\UL@hyphenbox=\box36
+\UL@skip=\skip60
+\UL@hook=\toks26
+\UL@height=\dimen150
+\UL@pe=\count112
+\UL@pixel=\dimen151
+\ULC@box=\box37
+Package: ulem 2012/05/18
+\ULdepth=\dimen152
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count113
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box38
+)
+\tc@llx=\dimen153
+\tc@lly=\dimen154
+\tc@urx=\dimen155
+\tc@ury=\dimen156
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen157
+\adjbox@Height=\dimen158
+\adjbox@Depth=\dimen159
+\adjbox@Totalheight=\dimen160
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count114
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box39
+\sift@deathcycles=\count115
+\@vwid@loff=\dimen161
+\@vwid@roff=\dimen162
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count116
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count117
+\c@Blindtext=\count118
+\c@blind@countparstart=\count119
+\blind@countxx=\count120
+\blindtext@numBlindtext=\count121
+\blind@countyy=\count122
+\c@blindlist=\count123
+\c@blindlistlevel=\count124
+\c@blindlist@level=\count125
+\blind@listitem=\count126
+\c@blind@listcount=\count127
+\c@blind@levelcount=\count128
+\blind@mathformula=\count129
+\blind@Mathformula=\count130
+\c@blind@randomcount=\count131
+\c@blind@randommax=\count132
+\c@blind@pangramcount=\count133
+\c@blind@pangrammax=\count134
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen163
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen164
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count135
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count136
+\leftroot@=\count137
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count138
+\DOTSCASE@=\count139
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box40
+\strutbox@=\box41
+\big@size=\dimen165
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count140
+\c@MaxMatrixCols=\count141
+\dotsspace@=\muskip10
+\c@parentequation=\count142
+\dspbrk@lvl=\count143
+\tag@help=\toks30
+\row@=\count144
+\column@=\count145
+\maxfields@=\count146
+\andhelp@=\toks31
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
+\@envbody=\toks32
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2014/06/22 v1.05
+
+`inconsolata-zi4' v1.05, 2014/06/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\zifour@ocount=\count147
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 158.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 158.
+
+-- Lines per column: 56 (exact).
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen172
+\scratchbox=\box42
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen173
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks35
+)
+\c@lstlisting=\count154
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 168.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
+ (./abstract.tex) (./intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
+(./background.tex [2]
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 10.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2014/06/22 OT1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 11.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
+)
+LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <5> not available
+(Font)              Font shape `OT1/zi4/b/n' tried instead on input line 28.
+ [3]
+[4]) (./setup.tex) [5] [6] (./extraction.tex
+<pdfs/total.pdf, id=30, 1115.16624pt x 172.645pt>
+File: pdfs/total.pdf Graphic file (type pdf)
+ <use pdfs/total.pdf>
+Package pdftex.def Info: pdfs/total.pdf used on input line 7.
+(pdftex.def)             Requested size: 501.82018pt x 77.68951pt.
+
+<pdfs/total2.pdf, id=31, 1115.16624pt x 172.645pt>
+File: pdfs/total2.pdf Graphic file (type pdf)
+ <use pdfs/total2.pdf>
+Package pdftex.def Info: pdfs/total2.pdf used on input line 16.
+(pdftex.def)             Requested size: 501.82018pt x 77.68951pt.
+
+<pdfs/total3.pdf, id=32, 1119.18124pt x 103.38625pt>
+File: pdfs/total3.pdf Graphic file (type pdf)
+ <use pdfs/total3.pdf>
+Package pdftex.def Info: pdfs/total3.pdf used on input line 25.
+(pdftex.def)             Requested size: 503.6269pt x 46.52338pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[7]) (./survival.tex [8 <./pdfs/total.pdf> <./pdfs/total2.pdf> <./pdfs/total3.p
+df>]) (./case-study.tex
+<pdfs/Express_bugs_smells_file-grain_rplot.jpg, id=164, 481.8pt x 481.8pt>
+File: pdfs/Express_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Express_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_bugs_smells_file-grain_rplot.jpg used on 
+input line 14.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Request_bugs_smells_file-grain_rplot.jpg, id=165, 481.8pt x 481.8pt>
+File: pdfs/Request_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Request_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_bugs_smells_file-grain_rplot.jpg used on 
+input line 17.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Less_bugs_smells_file-grain_rplot.jpg, id=166, 481.8pt x 481.8pt>
+File: pdfs/Less_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_bugs_smells_file-grain_rplot.jpg used on inp
+ut line 20.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Grunt_bugs_smells_file-grain_rplot.jpg, id=167, 481.8pt x 481.8pt>
+File: pdfs/Grunt_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Grunt_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_bugs_smells_file-grain_rplot.jpg used on in
+put line 23.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Bower_bugs_smells_file-grain_rplot.jpg, id=168, 481.8pt x 481.8pt>
+File: pdfs/Bower_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Bower_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_bugs_smells_file-grain_rplot.jpg used on in
+put line 26.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Jquery_bugs_smells_file-grain_rplot.jpg, id=169, 481.8pt x 481.8pt>
+File: pdfs/Jquery_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Jquery_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_bugs_smells_file-grain_rplot.jpg used on i
+nput line 29.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Hexo_bugs_smells_file-grain_rplot.jpg, id=170, 481.8pt x 481.8pt>
+File: pdfs/Hexo_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_bugs_smells_file-grain_rplot.jpg used on inp
+ut line 32.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Leaflet_bugs_smells_file-grain_rplot.jpg, id=171, 481.8pt x 481.8pt>
+File: pdfs/Leaflet_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Leaflet_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_bugs_smells_file-grain_rplot.jpg used on 
+input line 35.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Ramda_bugs_smells_file-grain_rplot.jpg, id=172, 481.8pt x 481.8pt>
+File: pdfs/Ramda_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Ramda_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_bugs_smells_file-grain_rplot.jpg used on in
+put line 38.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Chart_bugs_smells_file-grain_rplot.jpg, id=173, 481.8pt x 481.8pt>
+File: pdfs/Chart_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Chart_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_bugs_smells_file-grain_rplot.jpg used on in
+put line 41.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Riot_bugs_smells_file-grain_rplot.jpg, id=174, 481.8pt x 481.8pt>
+File: pdfs/Riot_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_bugs_smells_file-grain_rplot.jpg used on inp
+ut line 44.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Vue_bugs_smells_file-grain_rplot.jpg, id=175, 481.8pt x 481.8pt>
+File: pdfs/Vue_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_bugs_smells_file-grain_rplot.jpg used on inpu
+t line 47.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Moment_bugs_smells_file-grain_rplot.jpg, id=176, 481.8pt x 481.8pt>
+File: pdfs/Moment_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Moment_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_bugs_smells_file-grain_rplot.jpg used on i
+nput line 50.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Webpack_bugs_smells_file-grain_rplot.jpg, id=177, 481.8pt x 481.8pt>
+File: pdfs/Webpack_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webpack_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_bugs_smells_file-grain_rplot.jpg used on 
+input line 53.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Webtorrent_bugs_smells_file-grain_rplot.jpg, id=178, 481.8pt x 481.8pt>
+File: pdfs/Webtorrent_bugs_smells_file-grain_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webtorrent_bugs_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_bugs_smells_file-grain_rplot.jpg used 
+on input line 56.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Express_bugs_smells_line-grain_large_rplot.jpg, id=179, 481.8pt x 481.8pt
+>
+File: pdfs/Express_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jp
+g)
+ <use pdfs/Express_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_bugs_smells_line-grain_large_rplot.jpg us
+ed on input line 92.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Request_bugs_smells_line-grain_large_rplot.jpg, id=180, 481.8pt x 481.8pt
+>
+File: pdfs/Request_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jp
+g)
+ <use pdfs/Request_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_bugs_smells_line-grain_large_rplot.jpg us
+ed on input line 95.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Less_bugs_smells_line-grain_large_rplot.jpg, id=181, 481.8pt x 481.8pt>
+File: pdfs/Less_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_bugs_smells_line-grain_large_rplot.jpg used 
+on input line 98.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Grunt_bugs_smells_line-grain_large_rplot.jpg, id=182, 481.8pt x 481.8pt>
+File: pdfs/Grunt_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+
+<use pdfs/Grunt_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_bugs_smells_line-grain_large_rplot.jpg used
+ on input line 101.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Bower_bugs_smells_line-grain_large_rplot.jpg, id=183, 481.8pt x 481.8pt>
+File: pdfs/Bower_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+
+<use pdfs/Bower_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_bugs_smells_line-grain_large_rplot.jpg used
+ on input line 104.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Jquery_bugs_smells_line-grain_large_rplot.jpg, id=184, 481.8pt x 481.8pt>
+File: pdfs/Jquery_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg
+)
+<use pdfs/Jquery_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_bugs_smells_line-grain_large_rplot.jpg use
+d on input line 107.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Hexo_bugs_smells_line-grain_large_rplot.jpg, id=185, 481.8pt x 481.8pt>
+File: pdfs/Hexo_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_bugs_smells_line-grain_large_rplot.jpg used 
+on input line 110.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Leaflet_bugs_smells_line-grain_large_rplot.jpg, id=186, 481.8pt x 481.8pt
+>
+File: pdfs/Leaflet_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jp
+g)
+ <use pdfs/Leaflet_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_bugs_smells_line-grain_large_rplot.jpg us
+ed on input line 113.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Ramda_bugs_smells_line-grain_large_rplot.jpg, id=187, 481.8pt x 481.8pt>
+File: pdfs/Ramda_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+
+<use pdfs/Ramda_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_bugs_smells_line-grain_large_rplot.jpg used
+ on input line 116.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Chart_bugs_smells_line-grain_large_rplot.jpg, id=188, 481.8pt x 481.8pt>
+File: pdfs/Chart_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+
+<use pdfs/Chart_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_bugs_smells_line-grain_large_rplot.jpg used
+ on input line 119.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Riot_bugs_smells_line-grain_large_rplot.jpg, id=189, 481.8pt x 481.8pt>
+File: pdfs/Riot_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_bugs_smells_line-grain_large_rplot.jpg used 
+on input line 122.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Vue_bugs_smells_line-grain_large_rplot.jpg, id=190, 481.8pt x 481.8pt>
+File: pdfs/Vue_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_bugs_smells_line-grain_large_rplot.jpg used o
+n input line 125.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Moment_bugs_smells_line-grain_large_rplot.jpg, id=191, 481.8pt x 481.8pt>
+File: pdfs/Moment_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jpg
+)
+<use pdfs/Moment_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_bugs_smells_line-grain_large_rplot.jpg use
+d on input line 128.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Webpack_bugs_smells_line-grain_large_rplot.jpg, id=192, 481.8pt x 481.8pt
+>
+File: pdfs/Webpack_bugs_smells_line-grain_large_rplot.jpg Graphic file (type jp
+g)
+ <use pdfs/Webpack_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_bugs_smells_line-grain_large_rplot.jpg us
+ed on input line 131.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+<pdfs/Webtorrent_bugs_smells_line-grain_large_rplot.jpg, id=193, 481.8pt x 481.
+8pt>
+File: pdfs/Webtorrent_bugs_smells_line-grain_large_rplot.jpg Graphic file (type
+ jpg)
+ <use pdfs/Webtorrent_bugs_smells_line-grain_large_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_bugs_smells_line-grain_large_rplot.jpg
+ used on input line 134.
+(pdftex.def)             Requested size: 99.58464pt x 99.57831pt.
+
+Underfull \hbox (badness 1430) in paragraph at lines 139--142
+[]\OT1/ptm/b/n/10 Approach\OT1/ptm/m/n/10 . We use our frame-work de-scribed in
+ Sec-
+ []
+
+[9]
+Underfull \vbox (badness 3168) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./pdfs/Express_bugs_smells_file-grain_rplot.jpg> <./pdfs/Request_bugs_sme
+lls_file-grain_rplot.jpg> <./pdfs/Less_bugs_smells_file-grain_rplot.jpg> <./pdf
+s/Grunt_bugs_smells_file-grain_rplot.jpg> <./pdfs/Bower_bugs_smells_file-grain_
+rplot.jpg> <./pdfs/Jquery_bugs_smells_file-grain_rplot.jpg> <./pdfs/Hexo_bugs_s
+mells_file-grain_rplot.jpg> <./pdfs/Leaflet_bugs_smells_file-grain_rplot.jpg> <
+./pdfs/Ramda_bugs_smells_file-grain_rplot.jpg> <./pdfs/Chart_bugs_smells_file-g
+rain_rplot.jpg> <./pdfs/Riot_bugs_smells_file-grain_rplot.jpg> <./pdfs/Vue_bugs
+_smells_file-grain_rplot.jpg> <./pdfs/Moment_bugs_smells_file-grain_rplot.jpg> 
+<./pdfs/Webpack_bugs_smells_file-grain_rplot.jpg> <./pdfs/Webtorrent_bugs_smell
+s_file-grain_rplot.jpg>] <pdfs/linkExpress.pdf, id=203, 505.89pt x 505.89pt>
+File: pdfs/linkExpress.pdf Graphic file (type pdf)
+
+<use pdfs/linkExpress.pdf>
+Package pdftex.def Info: pdfs/linkExpress.pdf used on input line 163.
+(pdftex.def)             Requested size: 103.19843pt x 103.19864pt.
+
+<pdfs/linkTotalChurnGrunt.pdf, id=204, 505.89pt x 505.89pt>
+File: pdfs/linkTotalChurnGrunt.pdf Graphic file (type pdf)
+
+<use pdfs/linkTotalChurnGrunt.pdf>
+Package pdftex.def Info: pdfs/linkTotalChurnGrunt.pdf used on input line 166.
+(pdftex.def)             Requested size: 103.19843pt x 103.19864pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+
+Overfull \hbox (9.57133pt too wide) in paragraph at lines 227--296
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+
+Overfull \hbox (9.57133pt too wide) in paragraph at lines 302--368
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+
+Overfull \hbox (9.57133pt too wide) in paragraph at lines 374--439
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./pdfs/Express_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Request_bu
+gs_smells_line-grain_large_rplot.jpg> <./pdfs/Less_bugs_smells_line-grain_large
+_rplot.jpg> <./pdfs/Grunt_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Bower
+_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Jquery_bugs_smells_line-grain_
+large_rplot.jpg> <./pdfs/Hexo_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/L
+eaflet_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Ramda_bugs_smells_line-g
+rain_large_rplot.jpg> <./pdfs/Chart_bugs_smells_line-grain_large_rplot.jpg> <./
+pdfs/Riot_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Vue_bugs_smells_line-
+grain_large_rplot.jpg> <./pdfs/Moment_bugs_smells_line-grain_large_rplot.jpg> <
+./pdfs/Webpack_bugs_smells_line-grain_large_rplot.jpg> <./pdfs/Webtorrent_bugs_
+smells_line-grain_large_rplot.jpg> <./pdfs/linkExpress.pdf> <./pdfs/linkTotalCh
+urnGrunt.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+<pdfs/Express_vulnerabilities_smells_file-grain_rplot.jpg, id=225, 481.8pt x 48
+1.8pt>
+File: pdfs/Express_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (ty
+pe jpg)
+ <use pdfs/Express_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_vulnerabilities_smells_file-grain_rplot.j
+pg used on input line 478.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Request_vulnerabilities_smells_file-grain_rplot.jpg, id=226, 481.8pt x 48
+1.8pt>
+File: pdfs/Request_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (ty
+pe jpg)
+ <use pdfs/Request_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_vulnerabilities_smells_file-grain_rplot.j
+pg used on input line 481.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Grunt_vulnerabilities_smells_file-grain_rplot.jpg, id=227, 481.8pt x 481.
+8pt>
+File: pdfs/Grunt_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (type
+ jpg)
+ <use pdfs/Grunt_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_vulnerabilities_smells_file-grain_rplot.jpg
+ used on input line 484.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Bower_vulnerabilities_smells_file-grain_rplot.jpg, id=228, 481.8pt x 481.
+8pt>
+File: pdfs/Bower_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (type
+ jpg)
+ <use pdfs/Bower_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_vulnerabilities_smells_file-grain_rplot.jpg
+ used on input line 487.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Hexo_vulnerabilities_smells_file-grain_rplot.jpg, id=229, 481.8pt x 481.8
+pt>
+File: pdfs/Hexo_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (type 
+jpg)
+ <use pdfs/Hexo_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_vulnerabilities_smells_file-grain_rplot.jpg 
+used on input line 490.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Riot_vulnerabilities_smells_file-grain_rplot.jpg, id=230, 481.8pt x 481.8
+pt>
+File: pdfs/Riot_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (type 
+jpg)
+ <use pdfs/Riot_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_vulnerabilities_smells_file-grain_rplot.jpg 
+used on input line 493.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webpack_vulnerabilities_smells_file-grain_rplot.jpg, id=231, 481.8pt x 48
+1.8pt>
+File: pdfs/Webpack_vulnerabilities_smells_file-grain_rplot.jpg Graphic file (ty
+pe jpg)
+ <use pdfs/Webpack_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_vulnerabilities_smells_file-grain_rplot.j
+pg used on input line 496.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webtorrent_vulnerabilities_smells_file-grain_rplot.jpg, id=232, 481.8pt x
+ 481.8pt>
+File: pdfs/Webtorrent_vulnerabilities_smells_file-grain_rplot.jpg Graphic file 
+(type jpg)
+ <use pdfs/Webtorrent_vulnerabilities_smells_file-grain_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_vulnerabilities_smells_file-grain_rplo
+t.jpg used on input line 499.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./pdfs/Express_vulnerabilities_smells_file-grain_rplot.jpg> <./pdfs/Reque
+st_vulnerabilities_smells_file-grain_rplot.jpg> <./pdfs/Grunt_vulnerabilities_s
+mells_file-grain_rplot.jpg> <./pdfs/Bower_vulnerabilities_smells_file-grain_rpl
+ot.jpg> <./pdfs/Hexo_vulnerabilities_smells_file-grain_rplot.jpg> <./pdfs/Riot_
+vulnerabilities_smells_file-grain_rplot.jpg> <./pdfs/Webpack_vulnerabilities_sm
+ells_file-grain_rplot.jpg> <./pdfs/Webtorrent_vulnerabilities_smells_file-grain
+_rplot.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+\OT1/ptm/m/n/7 (Cox
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+\OT1/ptm/m/n/7 haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+[]|$\OML/cmm/m/it/7 p$\OT1/ptm/m/n/7 -value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+\OT1/ptm/m/n/7 (Pro-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+\OT1/ptm/m/n/7 tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+\OT1/ptm/m/n/7 haz-ards
+ []
+
+[16]
+Overfull \hbox (5.82912pt too wide) in paragraph at lines 664--759
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 36.7999pt on input line 759.
+
+<pdfs/Express_no-reassign_rplot.jpg, id=243, 481.8pt x 481.8pt>
+File: pdfs/Express_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Express_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_no-reassign_rplot.jpg used on input line 
+765.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Express_max-nested-callbacks_rplot.jpg, id=244, 481.8pt x 481.8pt>
+File: pdfs/Express_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Express_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_max-nested-callbacks_rplot.jpg used on in
+put line 768.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Express_complexity_rplot.jpg, id=245, 481.8pt x 481.8pt>
+File: pdfs/Express_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Express_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_complexity_rplot.jpg used on input line 7
+71.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Express_max-statements_rplot.jpg, id=246, 481.8pt x 481.8pt>
+File: pdfs/Express_max-statements_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Express_max-statements_rplot.jpg>
+Package pdftex.def Info: pdfs/Express_max-statements_rplot.jpg used on input li
+ne 774.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Grunt_no-reassign_rplot.jpg, id=247, 481.8pt x 481.8pt>
+File: pdfs/Grunt_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Grunt_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_no-reassign_rplot.jpg used on input line 78
+3.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Grunt_max-len_rplot.jpg, id=248, 481.8pt x 481.8pt>
+File: pdfs/Grunt_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Grunt_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_max-len_rplot.jpg used on input line 786.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Grunt_complexity_rplot.jpg, id=249, 481.8pt x 481.8pt>
+File: pdfs/Grunt_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Grunt_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_complexity_rplot.jpg used on input line 789
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Grunt_max-statements_rplot.jpg, id=250, 481.8pt x 481.8pt>
+File: pdfs/Grunt_max-statements_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Grunt_max-statements_rplot.jpg>
+Package pdftex.def Info: pdfs/Grunt_max-statements_rplot.jpg used on input line
+ 792.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Bower_no-reassign_rplot.jpg, id=251, 481.8pt x 481.8pt>
+File: pdfs/Bower_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Bower_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_no-reassign_rplot.jpg used on input line 80
+1.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Bower_complex-chaining_rplot.jpg, id=252, 481.8pt x 481.8pt>
+File: pdfs/Bower_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Bower_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_complex-chaining_rplot.jpg used on input li
+ne 804.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Bower_max-len_rplot.jpg, id=253, 481.8pt x 481.8pt>
+File: pdfs/Bower_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Bower_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_max-len_rplot.jpg used on input line 807.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Bower_max-nested-callbacks_rplot.jpg, id=254, 481.8pt x 481.8pt>
+File: pdfs/Bower_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Bower_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Bower_max-nested-callbacks_rplot.jpg used on inpu
+t line 810.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Less_no-reassign_rplot.jpg, id=255, 481.8pt x 481.8pt>
+File: pdfs/Less_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_no-reassign_rplot.jpg used on input line 819
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Less_max-nested-callbacks_rplot.jpg, id=256, 481.8pt x 481.8pt>
+File: pdfs/Less_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_max-nested-callbacks_rplot.jpg used on input
+ line 822.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Less_complexity_rplot.jpg, id=257, 481.8pt x 481.8pt>
+File: pdfs/Less_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_complexity_rplot.jpg used on input line 825.
+
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Less_max-statements_rplot.jpg, id=258, 481.8pt x 481.8pt>
+File: pdfs/Less_max-statements_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Less_max-statements_rplot.jpg>
+Package pdftex.def Info: pdfs/Less_max-statements_rplot.jpg used on input line 
+828.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Request_no-reassign_rplot.jpg, id=259, 481.8pt x 481.8pt>
+File: pdfs/Request_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Request_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_no-reassign_rplot.jpg used on input line 
+837.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Request_this-assign_rplot.jpg, id=260, 481.8pt x 481.8pt>
+File: pdfs/Request_this-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Request_this-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_this-assign_rplot.jpg used on input line 
+840.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Request_complex-chaining_rplot.jpg, id=261, 481.8pt x 481.8pt>
+File: pdfs/Request_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Request_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_complex-chaining_rplot.jpg used on input 
+line 843.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Request_max-nested-callbacks_rplot.jpg, id=262, 481.8pt x 481.8pt>
+File: pdfs/Request_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Request_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Request_max-nested-callbacks_rplot.jpg used on in
+put line 846.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Jquery_no-reassign_rplot.jpg, id=263, 481.8pt x 481.8pt>
+File: pdfs/Jquery_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Jquery_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_no-reassign_rplot.jpg used on input line 8
+55.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Jquery_complex-switch-case_rplot.jpg, id=264, 481.8pt x 481.8pt>
+File: pdfs/Jquery_complex-switch-case_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Jquery_complex-switch-case_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_complex-switch-case_rplot.jpg used on inpu
+t line 858.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Jquery_this-assign_rplot.jpg, id=265, 481.8pt x 481.8pt>
+File: pdfs/Jquery_this-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Jquery_this-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_this-assign_rplot.jpg used on input line 8
+61.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Jquery_complex-chaining_rplot.jpg, id=266, 481.8pt x 481.8pt>
+File: pdfs/Jquery_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Jquery_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Jquery_complex-chaining_rplot.jpg used on input l
+ine 864.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Hexo_no-reassign_rplot.jpg, id=267, 481.8pt x 481.8pt>
+File: pdfs/Hexo_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_no-reassign_rplot.jpg used on input line 873
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Hexo_max-len_rplot.jpg, id=268, 481.8pt x 481.8pt>
+File: pdfs/Hexo_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_max-len_rplot.jpg used on input line 876.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Hexo_max-params_rplot.jpg, id=269, 481.8pt x 481.8pt>
+File: pdfs/Hexo_max-params_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_max-params_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_max-params_rplot.jpg used on input line 879.
+
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Hexo_complexity_rplot.jpg, id=270, 481.8pt x 481.8pt>
+File: pdfs/Hexo_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Hexo_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Hexo_complexity_rplot.jpg used on input line 882.
+
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Leaflet_no-reassign_rplot.jpg, id=271, 481.8pt x 481.8pt>
+File: pdfs/Leaflet_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Leaflet_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_no-reassign_rplot.jpg used on input line 
+891.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Leaflet_max-len_rplot.jpg, id=272, 481.8pt x 481.8pt>
+File: pdfs/Leaflet_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Leaflet_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_max-len_rplot.jpg used on input line 894.
+
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Leaflet_max-nested-callbacks_rplot.jpg, id=273, 481.8pt x 481.8pt>
+File: pdfs/Leaflet_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Leaflet_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_max-nested-callbacks_rplot.jpg used on in
+put line 897.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Leaflet_max-statements_rplot.jpg, id=274, 481.8pt x 481.8pt>
+File: pdfs/Leaflet_max-statements_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Leaflet_max-statements_rplot.jpg>
+Package pdftex.def Info: pdfs/Leaflet_max-statements_rplot.jpg used on input li
+ne 900.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Ramda_no-reassign_rplot.jpg, id=275, 481.8pt x 481.8pt>
+File: pdfs/Ramda_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Ramda_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_no-reassign_rplot.jpg used on input line 90
+9.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Ramda_complex-chaining_rplot.jpg, id=276, 481.8pt x 481.8pt>
+File: pdfs/Ramda_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Ramda_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_complex-chaining_rplot.jpg used on input li
+ne 912.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Ramda_max-params_rplot.jpg, id=277, 481.8pt x 481.8pt>
+File: pdfs/Ramda_max-params_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Ramda_max-params_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_max-params_rplot.jpg used on input line 915
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Ramda_complexity_rplot.jpg, id=278, 481.8pt x 481.8pt>
+File: pdfs/Ramda_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Ramda_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Ramda_complexity_rplot.jpg used on input line 918
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Chart_no-reassign_rplot.jpg, id=279, 481.8pt x 481.8pt>
+File: pdfs/Chart_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Chart_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_no-reassign_rplot.jpg used on input line 92
+7.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Chart_this-assign_rplot.jpg, id=280, 481.8pt x 481.8pt>
+File: pdfs/Chart_this-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Chart_this-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_this-assign_rplot.jpg used on input line 93
+0.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Chart_max-len_rplot.jpg, id=281, 481.8pt x 481.8pt>
+File: pdfs/Chart_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Chart_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_max-len_rplot.jpg used on input line 933.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Chart_complex-switch-case_rplot.jpg, id=282, 481.8pt x 481.8pt>
+File: pdfs/Chart_complex-switch-case_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Chart_complex-switch-case_rplot.jpg>
+Package pdftex.def Info: pdfs/Chart_complex-switch-case_rplot.jpg used on input
+ line 936.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Riot_no-reassign_rplot.jpg, id=283, 481.8pt x 481.8pt>
+File: pdfs/Riot_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_no-reassign_rplot.jpg used on input line 945
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Riot_max-len_rplot.jpg, id=284, 481.8pt x 481.8pt>
+File: pdfs/Riot_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_max-len_rplot.jpg used on input line 948.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Riot_this-assign_rplot.jpg, id=285, 481.8pt x 481.8pt>
+File: pdfs/Riot_this-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_this-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_this-assign_rplot.jpg used on input line 951
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Riot_cond-assign_rplot.jpg, id=286, 481.8pt x 481.8pt>
+File: pdfs/Riot_cond-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Riot_cond-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Riot_cond-assign_rplot.jpg used on input line 954
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+Underfull \hbox (badness 7981) in paragraph at lines 954--954
+[]\OT1/ptm/m/n/8 (d) As-sign-ment in Con-di-tional
+ []
+
+<pdfs/Vue_no-reassign_rplot.jpg, id=287, 481.8pt x 481.8pt>
+File: pdfs/Vue_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_no-reassign_rplot.jpg used on input line 963.
+
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Vue_max-len_rplot.jpg, id=288, 481.8pt x 481.8pt>
+File: pdfs/Vue_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_max-len_rplot.jpg used on input line 966.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Vue_complexity_rplot.jpg, id=289, 481.8pt x 481.8pt>
+File: pdfs/Vue_complexity_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_complexity_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_complexity_rplot.jpg used on input line 969.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Vue_max-statements_rplot.jpg, id=290, 481.8pt x 481.8pt>
+File: pdfs/Vue_max-statements_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Vue_max-statements_rplot.jpg>
+Package pdftex.def Info: pdfs/Vue_max-statements_rplot.jpg used on input line 9
+72.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Moment_no-reassign_rplot.jpg, id=291, 481.8pt x 481.8pt>
+File: pdfs/Moment_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Moment_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_no-reassign_rplot.jpg used on input line 9
+81.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Moment_max-nested-callbacks_rplot.jpg, id=292, 481.8pt x 481.8pt>
+File: pdfs/Moment_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Moment_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_max-nested-callbacks_rplot.jpg used on inp
+ut line 984.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Moment_complex-switch-case_rplot.jpg, id=293, 481.8pt x 481.8pt>
+File: pdfs/Moment_complex-switch-case_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Moment_complex-switch-case_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_complex-switch-case_rplot.jpg used on inpu
+t line 987.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Moment_complex-chaining_rplot.jpg, id=294, 481.8pt x 481.8pt>
+File: pdfs/Moment_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Moment_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Moment_complex-chaining_rplot.jpg used on input l
+ine 990.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webpack_no-reassign_rplot.jpg, id=295, 481.8pt x 481.8pt>
+File: pdfs/Webpack_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webpack_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_no-reassign_rplot.jpg used on input line 
+999.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webpack_max-nested-callbacks_rplot.jpg, id=296, 481.8pt x 481.8pt>
+File: pdfs/Webpack_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webpack_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_max-nested-callbacks_rplot.jpg used on in
+put line 1002.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webpack_complex-chaining_rplot.jpg, id=297, 481.8pt x 481.8pt>
+File: pdfs/Webpack_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webpack_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_complex-chaining_rplot.jpg used on input 
+line 1005.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webpack_max-len_rplot.jpg, id=298, 481.8pt x 481.8pt>
+File: pdfs/Webpack_max-len_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webpack_max-len_rplot.jpg>
+Package pdftex.def Info: pdfs/Webpack_max-len_rplot.jpg used on input line 1008
+.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webtorrent_no-reassign_rplot.jpg, id=299, 481.8pt x 481.8pt>
+File: pdfs/Webtorrent_no-reassign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webtorrent_no-reassign_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_no-reassign_rplot.jpg used on input li
+ne 1017.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webtorrent_this-assign_rplot.jpg, id=300, 481.8pt x 481.8pt>
+File: pdfs/Webtorrent_this-assign_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webtorrent_this-assign_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_this-assign_rplot.jpg used on input li
+ne 1020.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webtorrent_max-nested-callbacks_rplot.jpg, id=301, 481.8pt x 481.8pt>
+File: pdfs/Webtorrent_max-nested-callbacks_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webtorrent_max-nested-callbacks_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_max-nested-callbacks_rplot.jpg used on
+ input line 1023.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+
+<pdfs/Webtorrent_complex-chaining_rplot.jpg, id=302, 481.8pt x 481.8pt>
+File: pdfs/Webtorrent_complex-chaining_rplot.jpg Graphic file (type jpg)
+
+<use pdfs/Webtorrent_complex-chaining_rplot.jpg>
+Package pdftex.def Info: pdfs/Webtorrent_complex-chaining_rplot.jpg used on inp
+ut line 1026.
+(pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
+ [17] [18] [19 <./pdfs/Express_no-reassign_rplot.jpg> <./pdfs/Express_max-neste
+d-callbacks_rplot.jpg> <./pdfs/Express_complexity_rplot.jpg> <./pdfs/Express_ma
+x-statements_rplot.jpg> <./pdfs/Grunt_no-reassign_rplot.jpg> <./pdfs/Grunt_max-
+len_rplot.jpg> <./pdfs/Grunt_complexity_rplot.jpg> <./pdfs/Grunt_max-statements
+_rplot.jpg> <./pdfs/Bower_no-reassign_rplot.jpg> <./pdfs/Bower_complex-chaining
+_rplot.jpg> <./pdfs/Bower_max-len_rplot.jpg> <./pdfs/Bower_max-nested-callbacks
+_rplot.jpg> <./pdfs/Less_no-reassign_rplot.jpg> <./pdfs/Less_max-nested-callbac
+ks_rplot.jpg> <./pdfs/Less_complexity_rplot.jpg> <./pdfs/Less_max-statements_rp
+lot.jpg>] [20 <./pdfs/Request_no-reassign_rplot.jpg> <./pdfs/Request_this-assig
+n_rplot.jpg> <./pdfs/Request_complex-chaining_rplot.jpg> <./pdfs/Request_max-ne
+sted-callbacks_rplot.jpg> <./pdfs/Jquery_no-reassign_rplot.jpg> <./pdfs/Jquery_
+complex-switch-case_rplot.jpg> <./pdfs/Jquery_this-assign_rplot.jpg> <./pdfs/Jq
+uery_complex-chaining_rplot.jpg> <./pdfs/Hexo_no-reassign_rplot.jpg> <./pdfs/He
+xo_max-len_rplot.jpg> <./pdfs/Hexo_max-params_rplot.jpg> <./pdfs/Hexo_complexit
+y_rplot.jpg> <./pdfs/Leaflet_no-reassign_rplot.jpg> <./pdfs/Leaflet_max-len_rpl
+ot.jpg> <./pdfs/Leaflet_max-nested-callbacks_rplot.jpg> <./pdfs/Leaflet_max-sta
+tements_rplot.jpg>] [21 <./pdfs/Ramda_no-reassign_rplot.jpg> <./pdfs/Ramda_comp
+lex-chaining_rplot.jpg> <./pdfs/Ramda_max-params_rplot.jpg> <./pdfs/Ramda_compl
+exity_rplot.jpg> <./pdfs/Chart_no-reassign_rplot.jpg> <./pdfs/Chart_this-assign
+_rplot.jpg> <./pdfs/Chart_max-len_rplot.jpg> <./pdfs/Chart_complex-switch-case_
+rplot.jpg> <./pdfs/Riot_no-reassign_rplot.jpg> <./pdfs/Riot_max-len_rplot.jpg> 
+<./pdfs/Riot_this-assign_rplot.jpg> <./pdfs/Riot_cond-assign_rplot.jpg> <./pdfs
+/Vue_no-reassign_rplot.jpg> <./pdfs/Vue_max-len_rplot.jpg> <./pdfs/Vue_complexi
+ty_rplot.jpg> <./pdfs/Vue_max-statements_rplot.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./pdfs/Moment_no-reassign_rplot.jpg> <./pdfs/Moment_max-nested-callbacks_
+rplot.jpg> <./pdfs/Moment_complex-switch-case_rplot.jpg> <./pdfs/Moment_complex
+-chaining_rplot.jpg> <./pdfs/Webpack_no-reassign_rplot.jpg> <./pdfs/Webpack_max
+-nested-callbacks_rplot.jpg> <./pdfs/Webpack_complex-chaining_rplot.jpg> <./pdf
+s/Webpack_max-len_rplot.jpg> <./pdfs/Webtorrent_no-reassign_rplot.jpg> <./pdfs/
+Webtorrent_this-assign_rplot.jpg> <./pdfs/Webtorrent_max-nested-callbacks_rplot
+.jpg> <./pdfs/Webtorrent_complex-chaining_rplot.jpg>]
+Underfull \hbox (badness 2653) in paragraph at lines 1070--1071
+[]\OT1/ptm/m/n/10 Although the JavaScript doc-u-men-ta-tion lists \OT1/ptm/m/it
+/10 Com-plex
+ []
+
+) (./contributions.tex [23]) (./threats.tex) (./related.tex [24])
+(./conclusion.tex) (./paper.bbl
+Underfull \hbox (badness 7168) in paragraph at lines 86--88
+[]\OT1/ptm/m/n/8 ``Eslint: The plug-gable lint-ing util-ity for javascript and 
+jsx.
+ []
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[25]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[26] (./paper.aux) ) 
+Here is how much of TeX's memory you used:
+ 9328 strings out of 493089
+ 155162 string characters out of 6134842
+ 420577 words of memory out of 5000000
+ 12471 multiletter control sequences out of 15000+600000
+ 46753 words of font info for 88 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 44i,12n,75p,3016b,1185s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r
+.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-0.e
+nc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}<
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-z
+i4b.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/inconsolata/Inco
+nsolata-zi4r.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (26 pages, 2485671 bytes).
+PDF statistics:
+ 384 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
+
