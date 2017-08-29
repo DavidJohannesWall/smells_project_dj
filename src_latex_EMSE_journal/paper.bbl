@@ -1,0 +1,301 @@
+\begin{thebibliography}{60}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{ESL(????)}]{ESLint}
+ (????) Eslint: The pluggable linting utility for javascript and jsx.
+  http://eslint.org/
+
+\bibitem[{JSH(????)}]{JSHint}
+ (????) Jshint: A static code analysis tool for javascript. http://jshint.com/
+
+\bibitem[{Jsl(????)}]{JslinT}
+ (????) Jslint: The javascript code quality tool. http://www.jslint.com
+
+\bibitem[{set(????)}]{seticert}
+ (????) Sei cert c++ coding standard - exp19-cpp. do not perform assignments in
+  conditional expressions.
+  \urlprefix\url{https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=975},
+  [Online; accessed 23-August-2016]
+
+\bibitem[{bow(2016)}]{bowerabout}
+ (2016) About bower. \urlprefix\url{https://bower.io/docs/about/}, [Online;
+  accessed 4-October-2016]
+
+\bibitem[{air(2016)}]{airbnbjss}
+ (2016) Airbnb javascript style guide.
+  \urlprefix\url{https://github.com/airbnb/javascript}, [Online; accessed
+  17-October-2016]
+
+\bibitem[{jqu(2016)}]{jqueryjss}
+ (2016) jquery javascript style guide.
+  \urlprefix\url{https://contribute.jquery.org/style-guide/js/}, [Online;
+  accessed 17-October-2016]
+
+\bibitem[{nod(2016)}]{nodejss}
+ (2016) Node.js style guide.
+  \urlprefix\url{https://github.com/felixge/node-style-guide}, [Online;
+  accessed 17-October-2016]
+
+\bibitem[{npm(2016)}]{npmjss}
+ (2016) npm-coding-style.
+  \urlprefix\url{https://docs.npmjs.com/misc/coding-style}, [Online; accessed
+  17-October-2016]
+
+\bibitem[{gru(2016)}]{gruntusers}
+ (2016) Who uses grunt. \urlprefix\url{http://gruntjs.com/who-uses-grunt},
+  [Online; accessed 4-October-2016]
+
+\bibitem[{wor(2016)}]{wordpressjss}
+ (2016) Wordpress javascript coding standards.
+  \urlprefix\url{https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/},
+  [Online; accessed 17-October-2016]
+
+\bibitem[{Abbes et~al(2011)Abbes, Khomh, Guéhéneuc, and Antoniol}]{Abbes11}
+Abbes M, Khomh F, Guéhéneuc YG, Antoniol G (2011) An empirical study of the
+  impact of two antipatterns, blob and spaghetti code, on program
+  comprehension. In: Software Maintenance and Reengineering (CSMR), 2011 15th
+  European Conf. on, pp 181--190
+
+\bibitem[{Archibald(2014)}]{Jake2014es7}
+Archibald J (2014) Es7 async functions.
+  \urlprefix\url{https://jakearchibald.com/2014/es7-async-functions/}, [Online;
+  accessed 14-August-2016]
+
+\bibitem[{Baxter et~al(1998)Baxter, Yahin, Moura, Sant'Anna, and
+  Bier}]{baxter1998clone}
+Baxter ID, Yahin A, Moura L, Sant'Anna M, Bier L (1998) Clone detection using
+  abstract syntax trees. In: Software Maintenance, 1998. Proceedings.,
+  International Conference on, IEEE, pp 368--377
+
+\bibitem[{Brodu et~al(2015)Brodu, Fr{\'e}not, and Obl{\'e}}]{brodu2015toward}
+Brodu E, Fr{\'e}not S, Obl{\'e} F (2015) Toward automatic update from callbacks
+  to promises. In: Proceedings of the 1st Workshop on All-Web Real-Time
+  Systems, ACM, p~1
+
+\bibitem[{Chaffer(2009)}]{chaffer2009learning}
+Chaffer J (2009) Learning JQuery 1.3: Better Interaction and Web Development
+  with Simple JavaScript Techniques. Packt Publishing Ltd
+
+\bibitem[{Chatzigeorgiou and Manakos(2010)}]{chatzigeorgiou2010investigating}
+Chatzigeorgiou A, Manakos A (2010) Investigating the evolution of bad smells in
+  object-oriented code. In: Quality of Information and Communications
+  Technology (QUATIC), 2010 7th Int'l Conf. on the, IEEE, pp 106--115
+
+\bibitem[{Crockford(2008)}]{crockford2008javascript}
+Crockford D (2008) JavaScript: The Good Parts: The Good Parts. O'Reilly Media,
+  Inc.
+
+\bibitem[{Fard and Mesbah(2013)}]{fard2013jsnose}
+Fard AM, Mesbah A (2013) Jsnose: Detecting javascript code smells. In: Source
+  Code Analysis and Manipulation (SCAM), 2013 IEEE 13th International Working
+  Conference on, IEEE, pp 116--125
+
+\bibitem[{Fischer et~al(2003)Fischer, Pinzger, and
+  Gall}]{fischer2003populating}
+Fischer M, Pinzger M, Gall H (2003) Populating a release history database from
+  version control and bug tracking systems. In: Software Maintenance, 2003.
+  ICSM 2003. Proceedings. International Conference on, IEEE, pp 23--32
+
+\bibitem[{Fontana et~al(2012)Fontana, Braione, and
+  Zanoni}]{fontana2012automatic}
+Fontana FA, Braione P, Zanoni M (2012) Automatic detection of bad smells in
+  code: An experimental assessment. Journal of Object Technology 11(2):5--1
+
+\bibitem[{Fowler(1997)}]{fowler1997refactoring}
+Fowler M (1997) Refactoring: Improving the design of existing code. In: 11th
+  European Conference. Jyv{\"a}skyl{\"a}, Finland
+
+\bibitem[{Fox and Weisberg(2010)}]{fox2010r}
+Fox J, Weisberg S (2010) An R companion to applied regression. Sage
+
+\bibitem[{Gallaba et~al(2015)Gallaba, Mesbah, and
+  Beschastnikh}]{gallaba2015don}
+Gallaba K, Mesbah A, Beschastnikh I (2015) Don't call us, we'll call you:
+  Characterizing callbacks in javascript. In: 2015 ACM/IEEE International
+  Symposium on Empirical Software Engineering and Measurement (ESEM), IEEE, pp
+  1--10
+
+\bibitem[{Gamma et~al(1995)Gamma, Helm, R.Johnson, and Vlissides}]{Gam95}
+Gamma E, Helm R, RJohnson, Vlissides J (1995) Design Patterns: Elements of
+  Reusable Object Oriented Software
+
+\bibitem[{Githut(2016)}]{githut}
+Githut (2016) Discover languages in github.
+  \urlprefix\url{http://githut.info/}, [Online; accessed 11-August-2016]
+
+\bibitem[{Griffin et~al(2011)Griffin, Ryan, de~Leastar, and
+  Botvich}]{griffin2011scaling}
+Griffin L, Ryan K, de~Leastar E, Botvich D (2011) Scaling instant messaging
+  communication services: A comparison of blocking and non-blocking techniques.
+  In: Computers and Communications (ISCC), 2011 IEEE Symposium on, IEEE, pp
+  550--557
+
+\bibitem[{Jaafar et~al(2013)Jaafar, Gu{\'e}h{\'e}neuc, Hamel, and
+  Khomh}]{jaafar2013mining}
+Jaafar F, Gu{\'e}h{\'e}neuc YG, Hamel S, Khomh F (2013) Mining the relationship
+  between anti-patterns dependencies and fault-proneness. In: WCRE, pp 351--360
+
+\bibitem[{Kerievsky(2005)}]{kerievsky2005refactoring}
+Kerievsky J (2005) Refactoring to patterns. Pearson Deutschland GmbH
+
+\bibitem[{Khomh et~al(2011)Khomh, Vaucher, Gu{\'e}h{\'e}neuc, and
+  Sahraoui}]{Khomh11-BGB}
+Khomh F, Vaucher S, Gu{\'e}h{\'e}neuc YG, Sahraoui H (2011) Bdtex: A gqm-based
+  bayesian approach for the detection of antipatterns. J Syst Softw
+  84(4):559--572
+
+\bibitem[{Khomh et~al(2012{\natexlab{a}})Khomh, Di~Penta, Gu{\'e}h{\'e}neuc,
+  and Antoniol}]{khomh2012exploratory}
+Khomh F, Di~Penta M, Gu{\'e}h{\'e}neuc YG, Antoniol G (2012{\natexlab{a}}) An
+  exploratory study of the impact of antipatterns on class change-and
+  fault-proneness. Empirical Software Engineering 17(3):243--275
+
+\bibitem[{Khomh et~al(2012{\natexlab{b}})Khomh, Penta, Gu{\'e}h{\'e}neuc, and
+  Antoniol}]{Khomh2012}
+Khomh F, Penta MD, Gu{\'e}h{\'e}neuc YG, Antoniol G (2012{\natexlab{b}}) An
+  exploratory study of the impact of antipatterns on class change- and
+  fault-proneness. Empirical Software Engineering 17(3):243--275,
+  \doi{10.1007/s10664-011-9171-y},
+  \urlprefix\url{http://dx.doi.org/10.1007/s10664-011-9171-y}
+
+\bibitem[{Koru et~al(2007)Koru, Zhang, and Liu}]{koru2007modeling}
+Koru AG, Zhang D, Liu H (2007) Modeling the effect of size on defect proneness
+  for open-source software. In: Proceedings of the Third International Workshop
+  on Predictor Models in Software Engineering, IEEE Computer Society, p~10
+
+\bibitem[{Koru et~al(2008)Koru, El~Emam, Zhang, Liu, and
+  Mathew}]{koru2008theory}
+Koru AG, El~Emam K, Zhang D, Liu H, Mathew D (2008) Theory of relative defect
+  proneness. Empirical Software Engineering 13(5):473--498
+
+\bibitem[{Mardan(2014)}]{mardan2014express}
+Mardan A (2014) Express. js Guide: The Comprehensive Book on Express. js. Azat
+  Mardan
+
+\bibitem[{Marinescu(2004)}]{marinescu2004detection}
+Marinescu R (2004) Detection strategies: Metrics-based rules for detecting
+  design flaws. In: Software Maintenance, 2004. Proceedings. 20th IEEE
+  International Conference on, IEEE, pp 350--359
+
+\bibitem[{Marinescu and Lanza(2006)}]{marinescu2006object}
+Marinescu R, Lanza M (2006) Object-oriented metrics in practice
+
+\bibitem[{Martin et~al(1999)Martin, Kent, and John}]{martin1999refactoring}
+Martin F, Kent B, John B (1999) Refactoring: improving the design of existing
+  code. Refactoring: Improving the Design of Existing Code
+
+\bibitem[{Martin(1996)}]{martin1996open}
+Martin RC (1996) The open-closed principle. More C++ gems pp 97--112
+
+\bibitem[{Martin(2009)}]{martin2009clean}
+Martin RC (2009) Clean code: a handbook of agile software craftsmanship.
+  Pearson Education
+
+\bibitem[{Mazinanian and Tsantalis(2016)}]{mazinanian2016migrating}
+Mazinanian D, Tsantalis N (2016) Migrating cascading style sheets to
+  preprocessors by introducing mixins. In: Proceedings of the 31st IEEE/ACM
+  International Conference on Automated Software Engineering, ACM, pp 672--683
+
+\bibitem[{McCabe(1976)}]{mccabe1976complexity}
+McCabe TJ (1976) A complexity measure. IEEE Transactions on software
+  Engineering (4):308--320
+
+\bibitem[{Neamtiu et~al(2005)Neamtiu, Foster, and
+  Hicks}]{neamtiu2005understanding}
+Neamtiu I, Foster JS, Hicks M (2005) Understanding source code evolution using
+  abstract syntax tree matching. ACM SIGSOFT Software Engineering Notes
+  30(4):1--5
+
+\bibitem[{Nguyen et~al(2012)Nguyen, Nguyen, Nguyen, Nguyen, and
+  Nguyen}]{nguyen2012detection}
+Nguyen HV, Nguyen HA, Nguyen TT, Nguyen AT, Nguyen TN (2012) Detection of
+  embedded code smells in dynamic web applications. In: Automated Software
+  Engineering (ASE), 2012 Proceedings of the 27th IEEE/ACM International
+  Conference on, IEEE, pp 282--285
+
+\bibitem[{Ogden(2015)}]{ogden2015callback}
+Ogden M (2015) Callback hell. \urlprefix\url{http://callbackhell.com}, [Online;
+  accessed 14-August-2016]
+
+\bibitem[{Olbrich et~al(2009)Olbrich, Cruzes, Basili, and
+  Zazworka}]{CodeSmells_overtime}
+Olbrich S, Cruzes DS, Basili V, Zazworka N (2009) The evolution and impact of
+  code smells: A case study of two open source systems. In: 3rd Int'l Symposium
+  on Empirical Software Engineering and Measurement, ESEM 2009,, pp 390--400
+
+\bibitem[{Peters and Zaidman(2012)}]{peters2012evaluating}
+Peters R, Zaidman A (2012) Evaluating the lifespan of code smells using
+  software repository mining. In: Software Maintenance and Reengineering
+  (CSMR), 2012 16th European Conf. on, IEEE, pp 411--416
+
+\bibitem[{Pfenning and Elliott(1988)}]{pfenning1988higher}
+Pfenning F, Elliott C (1988) Higher-order abstract syntax. In: ACM SIGPLAN
+  Notices, ACM, vol~23, pp 199--208
+
+\bibitem[{Selim et~al(2010)Selim, Barbour, Shang, Adams, Hassan, and
+  Zou}]{selim2010studying}
+Selim GM, Barbour L, Shang W, Adams B, Hassan AE, Zou Y (2010) Studying the
+  impact of clones on software defects. In: 2010 17th Working Conference on
+  Reverse Engineering, IEEE, pp 13--21
+
+\bibitem[{Shatnawi and Li(2006)}]{shatnawi2006investigation}
+Shatnawi R, Li W (2006) An investigation of bad smells in object-oriented
+  design. In: Information Technology: New Generations, 2006. ITNG 2006. 3rd
+  Int'l Conf. on, IEEE, pp 161--165
+
+\bibitem[{Shihab et~al(2013)Shihab, Ihara, Kamei, Ibrahim, Ohira, Adams,
+  Hassan, and Matsumoto}]{shihab2013studying}
+Shihab E, Ihara A, Kamei Y, Ibrahim WM, Ohira M, Adams B, Hassan AE, Matsumoto
+  Ki (2013) Studying re-opened bugs in open source software. Empirical Software
+  Engineering 18(5):1005--1042
+
+\bibitem[{Singer and Willett(2003)}]{singer2003applied}
+Singer JD, Willett JB (2003) Applied longitudinal data analysis: Modeling
+  change and event occurrence. Oxford university press
+
+\bibitem[{Sjoberg et~al(2013)Sjoberg, Yamashita, Anda, Mockus, and
+  Dyba}]{Sjoberg13QEC}
+Sjoberg DIK, Yamashita A, Anda B, Mockus A, Dyba T (2013) Quantifying the
+  effect of code smells on maintenance effort. IEEE Trans Softw Eng
+  39(8):1144--1156
+
+\bibitem[{{\'S}liwerski et~al(2005){\'S}liwerski, Zimmermann, and
+  Zeller}]{sliwerski2005changes}
+{\'S}liwerski J, Zimmermann T, Zeller A (2005) When do changes induce fixes?
+  In: ACM sigsoft software engineering notes, ACM, vol~30, pp 1--5
+
+\bibitem[{Stackoverflow(2016)}]{so:survay2016}
+Stackoverflow (2016) Developer survey results 2016.
+  \urlprefix\url{http://stackoverflow.com/research/developer-survey-2016},
+  [Online; accessed 11-August-2016]
+
+\bibitem[{Therneau(2000)}]{rPackage}
+Therneau T (2000) R survival package
+
+\bibitem[{Therneau and Grambsch(2000)}]{therneau2000modeling}
+Therneau TM, Grambsch PM (2000) Modeling survival data: extending the Cox
+  model. Springer Science \& Business Media
+
+\bibitem[{Tufano et~al(2015)Tufano, Palomba, Bavota, Oliveto, Di~Penta,
+  De~Lucia, and Poshyvanyk}]{tufano2015and}
+Tufano M, Palomba F, Bavota G, Oliveto R, Di~Penta M, De~Lucia A, Poshyvanyk D
+  (2015) When and why your code starts to smell bad. In: Proceedings of the
+  37th International Conference on Software Engineering-Volume 1, IEEE Press,
+  pp 403--414
+
+\bibitem[{Westergaard(1932)}]{Westergaard}
+Westergaard H (1932) Contributions to the History of Statistics. P.S. King,
+  London
+
+\bibitem[{Yin(2002)}]{robert2002case}
+Yin RK (2002) Case Study Research: Design and Methods - Third Edition, 3rd edn.
+  SAGE Publications
+
+\end{thebibliography}

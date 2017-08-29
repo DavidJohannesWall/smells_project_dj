@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: spbasic.bst
+Database file #1: references.bib
+Warning--string name "aw" is undefined
+--line 1251 of file references.bib
+Warning--string name "awadd" is undefined
+--line 1257 of file references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in npmjss
+Warning--to sort, need author or key in nodejss
+Warning--to sort, need author or key in airbnbjss
+Warning--to sort, need author or key in jqueryjss
+Warning--to sort, need author or key in ESLint
+Warning--to sort, need author or key in wordpressjss
+Warning--to sort, need author or key in seticert
+Warning--to sort, need author or key in bowerabout
+Warning--to sort, need author or key in gruntusers
+Warning--to sort, need author or key in JslinT
+Warning--to sort, need author or key in JSHint
+Warning--empty author in ESLint
+Warning--empty year in ESLint; set to ????
+`journal' is a missing field, not a string, for entry ESLint
+while executing---line 3299 of file spbasic.bst
+Warning--empty journal in ESLint
+Warning--empty author in JSHint
+Warning--empty year in JSHint; set to ????
+`journal' is a missing field, not a string, for entry JSHint
+while executing---line 3299 of file spbasic.bst
+Warning--empty journal in JSHint
+Warning--empty author in JslinT
+Warning--empty year in JslinT; set to ????
+`journal' is a missing field, not a string, for entry JslinT
+while executing---line 3299 of file spbasic.bst
+Warning--empty journal in JslinT
+Warning--empty year in seticert; set to ????
+Warning--empty publisher in Gam95
+Warning--there's a number but no volume in mccabe1976complexity
+Warning--can't use both volume and number fields in pfenning1988higher
+Warning--can't use both volume and number fields in sliwerski2005changes
+`journal' is a missing field, not a string, for entry rPackage
+while executing---line 3299 of file spbasic.bst
+Warning--empty journal in rPackage
+You've used 60 entries,
+            3270 wiz_defined-function locations,
+            970 strings with 14398 characters,
+and the built_in function-call counts, 61467 in all, are:
+= -- 6655
+> -- 1281
+< -- 51
++ -- 628
+- -- 399
+* -- 4169
+:= -- 7130
+add.period$ -- 54
+call.type$ -- 60
+change.case$ -- 478
+chr.to.int$ -- 65
+cite$ -- 108
+duplicate$ -- 6167
+empty$ -- 4811
+format.name$ -- 534
+if$ -- 12935
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 522
+newline$ -- 190
+num.names$ -- 196
+pop$ -- 1861
+preamble$ -- 1
+purify$ -- 373
+quote$ -- 0
+skip$ -- 2721
+stack$ -- 0
+substring$ -- 5197
+swap$ -- 3267
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 507
+warning$ -- 26
+while$ -- 399
+width$ -- 0
+write$ -- 656
+(There were 4 error messages)
